@@ -1,7 +1,7 @@
 ---
-title: Climate change will cook chestnut-breasted whiteface
+title: WIP- Climate change will cook chestnut-breasted whiteface
 author:
-  - name: Ned Ryan-Schofield
+  - name: Ned L Ryan-Schofield
     orcid: 0000-0002-4997-6560
     corresponding: true
     email: ned.ryan-schofield@bushheritage.org.au
@@ -13,10 +13,39 @@ author:
     affiliations:
       - Bush Heritage Australia
       - Charles Darwin University
-  - name: Patrick Taggart
+  - name: Darcy A Whittaker
+    orcid:  
+    corresponding: false
+    roles:  
+      - Conceptualisation
+      - Data Collection
+      - Manuscript preparation
+    affiliations:
+      - Bush Heritage Australia
+  - name: Graeme R Finlayson
+    orcid: 0000-0002-6770-2520 
+    corresponding: false
+    roles:  
+      - Conceptualisation
+      - Manuscript preparation
+    affiliations:
+      - Bush Heritage Australia
+  - name: Lucy McCormack
+    orcid:  
+    corresponding: false
+    roles:  
+      - Analysis
+      - Manuscript preparation
+    affiliations:
+      - Bush Heritage Australia
+  - name: Patrick L Taggart
     orcid: 0000-0001-9523-0463 
     corresponding: false
-    roles: []
+    roles:  
+      - Conceptualisation
+      - Data Collection
+      - Analysis
+      - Manuscript preparation
     affiliations:
       - Bush Heritage Australia
 keywords:
@@ -34,6 +63,11 @@ citation:
   container-title: Earth and Space Science
 number-sections: true
 ---
+
+NRS NOTES 28/5/26:
+- Figures are produced by the scripts in https://github.com/nedschofield/cbwf_-manuscript_project.git, stored locally, and just called from this manuscript.
+- After I finalise the analysis I'll port it all over into notebooks/ so that it is all reproducible, but for now I want to keep just one version of the analysis.
+
 
 ## Introduction
 
@@ -54,6 +88,9 @@ This project aimed to reassess the abundance and distribution of the Chestnut-br
 ### Survey Region and Site Selection
 
 ```{r}
+#packages
+library(dplyr)
+
 #create a path to cbwf_project location
 proj.path <- "C:/Users/nedsc/Documents/git/cbwf_project/"
 
@@ -61,6 +98,10 @@ proj.path <- "C:/Users/nedsc/Documents/git/cbwf_project/"
 d <- read.csv(file = paste0(proj.path, "data/table/CBWF_surveys_11052026.csv"))
 
 n_sites <- length(unique(d$site))
+tot_cbwf <- d |> 
+  group_by(site) |>
+  summarise(tot = sum(CBWF))
+sites_w_cbwf <- n_sites - nrow(subset(tot_cbwf, tot > 0))
 
 ```
 
@@ -68,7 +109,7 @@ Surveys were conducted across the known and suspected range of the Chestnut-brea
 
 In total, `r n_sites` sites were surveyed. These sites were distributed across four broad regions: the Coober Pedy–Glendambo region; the Oodnadatta region, including sites between Marla and Oodnadatta and between Nilpinna and William Creek; the Marree–Leigh Creek region, including the Lyndhurst–Birdsville Track area; and the Gawler Ranges–Lake Gairdner region, including sites around Mt Ive and Nonning. Most sites occurred within arid stony plains, chenopod shrublands and associated low shrubland habitats on working pastoral properties.
 
-Where accurate location information was available, survey cells were positioned to encompass the original historical survey locality as closely as possible. For some historical records, however, location information was imprecise or unavailable at the scale required to relocate the original survey point. In these cases, surveys were placed within the approximate locality described by the historical record and in habitat judged to be broadly comparable to that originally surveyed. A map of surveyed sites and their broad regional grouping is provided in **Fig. \[x\]**.
+Where accurate location information was available, survey cells were positioned to encompass the original historical survey locality as closely as possible. For some historical records, however, location information was imprecise or unavailable at the scale required to relocate the original survey point. In these cases, surveys were placed within the approximate locality described by the historical record and in habitat judged to be broadly comparable to that originally surveyed. A map of surveyed sites and their broad regional grouping is provided in @fig-cbwf-map.
 
 ### Survey Methods
 
@@ -104,10 +145,75 @@ The model used two climate predictors: mean annual days with maximum temperature
 To project occurence probability under future climate scenarios, we used NARCliM2.0 regional climate model output. Daily maximum temperature and precipitation data were downloaded for five global climate models (GCMs), three emissions scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0), and two regional climate model configurations (R3, R5), for two 20-year periods: mid-century (2040–2059) and late-century (2080–2099). For each GCM/SSP/RCM/period combination, we computed mean annual days over 40°C and mean annual rainfall, then ensemble-averaged across GCMs and RCMs within each SSP×period group, producing six climate scenarios for prediction.
 
 ## Results
+```{r}
+#| label: fig-cbwf-map
+#| echo: false
+#| fig-cap: "2024 Chestnut-breasted Whiteface survey detections"
+
+knitr::include_graphics(
+  file.path(proj.path, "figures", "updated_figs", "CBWF_survey_outcomes.png")
+)
+```
+
+A total of `r sum(tot_cbwf$tot)` Chestnut-breasted Whiteface were detected from `r sites_w_cbwf` of `r n_sites` sites (mean = `r mean(tot_cbwf$tot)`, sd = `r sd(tot_cbwf$tot)`). Birds were only detected at sites in the Coober Pedy-Glendambo region @fig-cbwf-map <!-- NRS: this map needs improving but will do for draft -->.
+
+### occupancy
+```{r}
+#| label: load-occu-data
+occu_global <- readRDS(paste0(proj.path, "outputs/occu_global.rds"))
+occu_null   <- readRDS(paste0(proj.path, "outputs/occu_null.rds"))
+```
+
+Detection probability was estimated to be *p* = `r round(occu_global$mean$p, 2)` (95% CrI: `r round(occu_global$q2.5$p, 2)`–`r round(occu_global$q97.5$p, 2)`), indicating moderate detectability per survey cell. Of the `r n_sites` sites surveyed, an estimated `r round(occu_global$mean$nocc, 1)` (95% CrI: `r round(occu_global$q2.5$nocc, 0)`–`r round(occu_global$q97.5$nocc, 0)`) were inferred to be occupied, slightly less than the observed number of sites where birds were recorded (`r sites_w_cbwf`). 
+
+Covariate effects on occupancy are shown in @fig-coeffs, which indicates that change in number of extreme heat days over the past 30 years was the only informative predictor, with all other predictors credible intervals crossing zero. 
+
+```{r}
+#| label: fig-coeffs
+#| fig-cap: "Posterior mean occupancy covariate effects with 95% credible intervals (logit scale). Points to the right of zero indicate a positive effect on occupancy probability."
+#| out-width: 70%
+
+knitr::include_graphics(paste0(proj.path, "figures/updated_figs/occu_global_covar_coeffs.png"))
+```
+
+Occupancy probability was predicted spatially across the study region by applying the fitted model to 1 km² aggregated raster layers of each covariate. The September 6-month rainfall layer was used for spatial prediction, as the majority of surveys were conducted in September. Uncertainty was propagated by drawing 500 thinned samples from the joint posterior to produce 95% credible interval surfaces alongside the posterior mean.
+
+@fig-psi-maps shows areas with highest probability of occupancy are in the South-west part of the birds range, centering around Bon Bon and Glendambo. Parts of the range where no whiteface were detected during these surveys have much lower occupancy probability.
+
+```{r}
+#| label: fig-psi-maps
+#| fig-cap: "Spatial prediction of occupancy probability ψ: posterior mean (left), lower 95% credible interval (centre), and upper 95% credible interval (right). Survey sites are shown as black points."
+#| out-width: 100%
+knitr::include_graphics(paste0(proj.path, "figures/updated_figs/occupancy_psi_maps.png"))
+```
+
+### Distribution modelling
+The BRT model predicts occurrence probability across the historical study region for each of the three survey periods. Higher probability (warmer colours) reflects climate conditions more favourable to the species.In @fig-brt-hist, it is clear that the climate envelope suitable for CBWF has shrunk, as the climate has warmed over the last 60 years.
+
+```{r}
+#| label: fig-brt-hist
+#| echo: false
+#| fig-cap: "Predicted occupancy surface."
+
+knitr::include_graphics(
+  file.path(proj.path, "figures", "updated_figs", "brt_historical_occupancy_sat.png")
+)
+```
+Projected occupancy probability under NARCliM2.0 ensemble climate scenarios is shown in @fig-brt-fut. The model predicts significant declines in occurrence at currently known CBWF locations, across all emissions scenarios. By late century, most of the historical distribution of CBWF species is projected to be lost, under all emissions scenarios.
+
+```{r}
+#| label: fig-brt-fut
+#| echo: false
+#| fig-cap: "Predicted occupancy surface."
+
+knitr::include_graphics(
+  file.path(proj.path, "figures", "updated_figs", "brt_narclim_occupancy_sat.png")
+)
+```
 
 ## Discussion
-
-## References {.unnumbered}
+Interestingly, there is some parts of the predicted range to the north (around Indulkana in the APY lands) which we didn't actually survey that have high probability of occupancy. Birds are frequently recorded here by bellbird tours and other birders heading up the highway.
+## References
 
 ::: {#refs}
 :::

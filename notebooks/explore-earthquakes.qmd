@@ -1,6 +1,6 @@
 ---
-title: Explore Earthquakes
-author: Charlotte Wickham
+title: BRT_modelling_outputs
+author: Ned Ryan-Schofield
 ---
 
 ```{r}
