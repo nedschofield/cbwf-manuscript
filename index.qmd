@@ -82,6 +82,9 @@ NRS NOTES 28/5/26:
 
 - After I finalise the analysis I'll port it all over into notebooks/ so that it is all reproducible, but for now I want to keep just one version of the analysis.
 
+- NRS 2/6: could remove all mention of collecting auxillary detection data as it wasn't used in the analysis.
+  bottom of intro, and occupancy in methods.
+
 ## Introduction
 
 Ecological monitoring is fundamental to mitigating the current and ongoing high rates of extinction and species decline [@lindenmayer2018].
@@ -114,8 +117,7 @@ In 1990, range-wide Chestnut-breasted Whiteface surveys revisited almost all the
 Using the results from these surveys, and observed population densities from a study site in the eastern part of the species’ range (Mount Lyndhurst), an overall population of 6000 individuals was estimated [@pedler1992].
 Some populations were again resurveyed in 1999 [@pedler2000] and the Mount Lyndhurst population monitored again in 2007 [@pedler2007].
 However, since this time the species has experienced anecdotal declines (Lyn Pedler, pers. comm. ) and has potentially contracted from some parts of its range.
-Despite this, Chestnut-breasted Whiteface have had little to no research or conservation attention excluding the work of Pedler *et al.*
-Listed globally in the IUCN as Near Threatened, and as Rare in South Australia, the species lacks contemporary abundance and distribution data and its conservation status may reflect this uncertainty [@garnett2021].
+Despite this, Chestnut-breasted Whiteface have had little to no research or conservation attention excluding the work of Pedler *et al.* Listed globally in the IUCN as Near Threatened, and as Rare in South Australia, the species lacks contemporary abundance and distribution data and its conservation status may reflect this uncertainty [@garnett2021].
 <!-- NRS: Need to fix these lines -->
 
 We aimed to re-assess the distribution of the Chestnut-breasted Whiteface.
@@ -148,39 +150,41 @@ st <- d |>
 
 ```
 
-Surveys were conducted across the known range of the Chestnut-breasted Whiteface in arid northern South Australia between June and September 2024.
+We conducted surveys across the known range of the Chestnut-breasted Whiteface in arid northern South Australia between June and September 2024.
 Survey sites were selected to reassess historical localities and more recent records of the species, rather than to provide a random sample of available habitat.
-The core set of survey sites was based on localities surveyed in [@pedler1992] during a review of the species’ distribution and status, including sites where Chestnut-breasted Whiteface were detected and sites where surveys were unsuccessful.
-Additional sites were included from subsequent surveys in 1999–2000 [@pedler2000] and from more recent species records, particularly where these records represented areas not well covered by the 1990 survey network.
+The core set of survey sites was based on localities surveyed in [@pedler1992] including sites where birds were detected and sites where surveys were unsuccessful.
+Additional sites were included from subsequent surveys in 1999–2000 [@pedler2000] and from more recent species records, particularly where these records represented areas not well covered by the 1990 survey localities.
 
-In total, `r n_sites` sites were surveyed.
+We surveyed `r n_sites` sites in total.
 These sites were distributed across four broad regions: the Coober Pedy–Glendambo region; the Oodnadatta region, including sites between Marla and Oodnadatta and between Nilpinna and William Creek; the Marree–Leigh Creek region, including the Lyndhurst–Birdsville Track area; and the Gawler Ranges–Lake Gairdner region, including sites around Mt Ive and Nonning.
 Most sites occurred within arid stony plains, chenopod shrublands and associated low shrubland habitats on working pastoral properties.
 
-Where accurate location information was available, survey cells were positioned to encompass the original historical survey locality as closely as possible.
+We positioned surveys to cover the original historical survey locality as closely as possible, where accurate location information was available.
 For some historical records, however, location information was imprecise or unavailable at the scale required to relocate the original survey point.
-In these cases, surveys were placed within the approximate locality described by the historical record and in habitat judged to be broadly comparable to that originally surveyed.
-A map of surveyed sites and their broad regional grouping is provided in @fig-cbwf-map.
+In these cases, we placed surveys within the approximate locality described by the historical record and in habitat judged to be broadly comparable to that originally surveyed.
+A map of surveyed sites and their broad regional grouping is provided in @fig-cbwf-map, and exact coordinates of surveys sites provided i n supplementary material XXX.
+<!-- add supplementary material -->
 
 ### Survey Methods
 
 At each site, we conducted a set of repeated area searches designed to provide standardised count data while maximising the probability of detecting a rare and potentially patchily distributed species.
-The standard survey unit was a 20-minute, 5-ha area search.
+The standard survey unit was a 20-minute, 5-ha area search (\~224 x 224 m).
 Each site comprised ten such survey cells, giving a total surveyed area of 50 ha per site.
-Cells were arranged in two spatially separated transects, with five 5-ha cells in each transect.
-Transects were separated by 200m to reduce the risk of double-counting individuals and to minimise interference between observers and playback in adjacent transects.
-Each cell was surveyed once during a site visit.
+Cells were arranged in two parallel, but spatially separated transects (\~224 x 1118 m), with five 5-ha cells in each transect (See example supplementary Fig. XX).
+<!-- add supplementary material --> Transects were separated by 200m to reduce the probability of double-counting individualsindividuals.
+This transect spacing additionally minimised interference between observers and playback when transects were surveyed simultaneously by different observers.
+Each of the ten cells was surveyed once during a site visit.
 
 Surveys were conducted on foot by a single observer per cell using binoculars.
-Where two observers were conducting the survey, observers surveyed separate transects independently, beginning at one end of the transect and moving sequentially through the five cells.
-This ensured a consistent direction of travel through each transect and reduced the likelihood of repeatedly flushing or re-counting birds between cells.
+Where two observers were conducting the survey, observers surveyed separate transects independently, but both beginning at the same end of their respective transects and moving sequentially through the five cells in the same direction.
+This ensured a consistent direction of travel through each transect and reduced the likelihood of re-counting birds between cells, as a result of being flushed by the other observer.
 In each cell, observers recorded the number of Chestnut-breasted Whiteface detected during the 20-minute search, and for each detection, observers recorded the number of individuals detected and whether the initial detection occurred before or after call playback.
-To increase detectability, at the centre of each 5-ha cell, observers broadcast Chestnut-breasted Whiteface vocalisations consisting of 30 seconds of calls and song, followed by a 30-second listening period, then a second 30-second broadcast followed by a second 30-second listening period.
+To increase detectability, at the centre of each 5-ha cell, observers broadcast Chestnut-breasted Whiteface vocalisations consisting of 30 seconds of trilling calls and song, followed by a 30-second listening period, then a second 30-second broadcast followed by a second 30-second listening period.
 The use of short, standardised playback bouts was intended to increase the probability of detecting birds present within the cell while limiting attraction from beyond the surveyed area.
 Playback was conducted consistently across cells so that survey effort was comparable among sites.
 
 Surveys were generally conducted in the morning (`r nrow(subset(st, st < 10.5))` of `r n_sites` sites started before 10:30AM), although the remoteness of sites and long travel distances meant that some surveys were completed later in the day.
-Surveys were not conducted, where avoidable, during very strong winds likely to substantially reduce detectability.
+Surveys were not conducted, where avoidable, during strong winds likely to substantially reduce detectability.
 For each cell, observers recorded the date, survey start time and broad survey conditions, including wind, cloud cover, rain and temperature category.
 At the centre of each cell, four habitat photographs were taken facing approximately north, east, south and west.
 These photographs, together with field notes, were used to classify the broad habitat of each survey cell.
@@ -192,23 +196,23 @@ This design also balanced statistical and logistical requirements: greater repli
 
 #### Occupancy
 
-We fitted a Bayesian single-season occupancy model in JAGS [@plummer2003] to estimate site-level occupancy probability (ψ) and detection probability (*p*).
+We fitted a Bayesian single-season occupancy model in JAGS [@plummer2003] to estimate site-level occupancy (ψ) and detection probability (*p*).
 During initial data exploration no cell-level survey condition covariates had any effect on detection, and so detection probability was held constant across all sites and visits.
 The global model included five site-level covariates on occupancy (@tbl-covariates).
 
 | Variable | Derivation | Inclusion rationale |
 |------------------|------------------------|------------------------------|
 | Six-month pre-survey rainfall | Cumulative precipitation in the six months prior to each site visit, extracted from Australian Gridded Climate Data (AGCD) monthly precipitation (v2-0-3) for 2024 [@evans2020] and matched to the calendar month of the site survey | Recent moisture conditions influence vegetation greenness and resource availability at the time of survey, as CBWF could be nomadic and respond to regional fluctuations in resource availability |
-| Change in mean annual rainfall (1990-2024) | Slope of a pixel-wise linear regression on annual rainfall totals; derived from AGCD monthly precipitation (v2-0-3) | Long-term drying trends may drive progressive habitat deterioration and range contraction |
-| Change in days per year exceeding 40 degrees C (1990-2024) | Pixel-wise linear trend multiplied by the length of the time series, expressed as absolute change in days per year; derived from AGCD daily maximum temperature (v1-0-3) | Increasing extreme heat events are potentially associated with reduced breeding success and survival in other arid-zone passerines [@conradie2020] |
+| Change in mean annual rainfall (1990-2024) | Slope of a pixel-wise linear regression on annual rainfall totals. Derived from AGCD monthly precipitation (v2-0-3) | Long-term drying trends may drive progressive habitat deterioration and range contraction |
+| Change in days per year exceeding 40 degrees C (1990-2024) | Slope of pixel-wise linear regression multiplied by the length of the time series, expressed as absolute change in days per year. Derived from AGCD daily maximum temperature (v1-0-3) | Increasing extreme heat events are potentially associated with reduced breeding success and survival in other arid-zone passerines [@conradie2020] |
 | Change in photosynthetic vegetation (PV) fractional cover (2001-2024) | Slope of a pixel-wise linear regression on monthly PV values from the CSIRO fractional cover dataset, derived from MODIS imagery [@guerschman] | Declining live cover may indicate long-term habitat degradation as a result of intensification of pastoralism [@barnetson2017; @retallack2024], affecting foraging and nesting resources |
-| Change in non-photosynthetic vegetation (NPV) fractional cover (2001-2024) | Slope of a pixel-wise linear regression on monthly NPV values from the same CSIRO fractional cover dataset [@guerschman] | NPV is a proxy for standing dry biomass and invertebrate food web support, particularly pertinent in boom-bust arid systems where generalists may derive significant benefit from the 'brown food web' [@wijas2026; @wijas2023] |
+| Change in non-photosynthetic vegetation (NPV) fractional cover (2001-2024) | Slope of a pixel-wise linear regression on monthly NPV values from the same CSIRO fractional cover dataset. | NPV is a proxy for standing dry biomass and invertebrate food web support, particularly pertinent in boom-bust arid systems where generalists may derive significant benefit from the 'brown food web' [@wijas2026; @wijas2023] |
 
-: Occupancy covariates included in the global model. All raw data accessed through NCI THREDDS database. Please see supplementary materials for detailed methods and code for deriving the covariate rasters.
+: Occupancy covariates included in the global model. All raw data were accessed through the NCI THREDDS database. See supplementary materials XXX for detailed methods and code used to derive the covariate rasters. <!-- add supplementary materials -->
 
-All covariates were standardised to zero mean and unit variance before model fitting.
-A null model with no occupancy covariates was also fitted and compared to the global model using the Widely Applicable Information Criterion (WAIC), computed by marginalising the latent occupancy state analytically for each posterior sample.
-WAIC is preferred over DIC for hierarchical models with discrete latent states because it averages over the full posterior rather than conditioning on a point estimate.
+All covariates were centered and scaled to zero mean and unit variance before model fitting.
+A null model with no occupancy covariates was also fitted and compared to the global model using the Watanabe-Akaike Information Criterion (WAIC), computed by marginalising the latent occupancy state analytically for each posterior sample.
+WAIC is preferred over DIC for hierarchical models with discrete latent states because it averages over the full posterior rather than conditioning on a point estimate [@gelman2014].
 
 All regression coefficients and intercept parameters were given weakly informative Normal(0, 1) priors on the logit scale.
 Models were run with 3 MCMC chains of 20,000 iterations each, with a burn-in of 5,000 and thinning by a factor of 5, yielding 9,000 retained posterior samples.
@@ -220,16 +224,16 @@ Uncertainty was propagated by drawing 500 thinned samples from the joint posteri
 
 #### Distribution modelling
 
-To place the 2024 survey results in a historical and future climate context, we fitted a boosted regression tree (BRT) model of *A. pectoralis* occurrence probability using survey records from three time periods: approximately 1960, 1990, and 2024.
-The dataset combined our 2024 survey records, the 1990 survey records of @pedler1992, and historical presence records compiled by @pedler1992 (predominantly from the 1960s).
+To place the 2024 survey results in a historical and future climate context, we fitted a boosted regression tree (BRT) model of Chestnut-breasted Whiteface occurrence probability using survey records from three time periods: approximately 1960, 1990, and 2024.
+The dataset combined historical presence records compiled by @pedler1992 (predominantly from the 1960s), the 1990 survey records of @pedler1992, and our 2024 survey records .
 All records were coded as binary presence/absence observations.
-For each record, period-matched climate data were extracted from AGCD gridded products: mean annual days with maximum temperature exceeding 40°C and mean annual rainfall (mm), averaged over a 10-year window centred on each survey period (1950–1960 for the 1960 period, 1980–1990 for the 1990 period, and 2014–2024 for the 2024 period; AGCD daily maximum temperature v1-0-3 and monthly precipitation v2-0-3).
+For each record, period-matched climate data were extracted from AGCD gridded products: mean annual days with maximum temperature exceeding 40°C and mean annual rainfall (mm), averaged over a 10-year window prior to each survey period (1950–1960 for the 1960 period, 1980–1990 for the 1990 period, and 2014–2024 for the 2024 period; AGCD daily maximum temperature v1-0-3 and monthly precipitation v2-0-3).
 
 The BRT model was fitted using the function *dismo::gbm.step* [@elith2008], with a Bernoulli error family, tree complexity of 3, learning rate of 0.001, and bag fraction of 0.5.
 The optimal number of trees was determined by cross-validation within *gbm.step*.
 
 To project occurrence probability under future climate scenarios, we obtained NARCliM2.0 regional climate model output from the NCI THREDDS server.
-Bias-corrected daily maximum temperature (tasmaxAdjust) and precipitation (prAdjust) data were downloaded for five global climate models (ACCESS-ESM1-5, EC-Earth3-Veg, MPI-ESM1-2-HR, NorESM2-MM, and UKESM1-0-LL), three emissions scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0), and two WRF regional climate model configurations (R3 and R5), for two 20-year periods: mid-century (2040–2059) and late-century (2080–2099).
+Bias-corrected daily maximum temperature (tasmaxAdjust) and precipitation (prAdjust) data were downloaded for five global climate models (ACCESS-ESM1-5, EC-Earth3-Veg, MPI-ESM1-2-HR, NorESM2-MM, and UKESM1-0-LL), three emissions scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0), and two weather research and forecasting climate model configurations (WRF412R3 and WRF412R5), for two 20-year periods: mid-century (2040–2059) and late-century (2080–2099).
 For each GCM/SSP/RCM/period combination, we computed mean annual days exceeding 40°C and mean annual rainfall.
 These were then ensemble-averaged across GCMs and RCMs within each SSP×period group, producing six projected climate scenarios.
 The BRT model was applied to each scenario to generate gridded occurrence probability surfaces, which were reprojected and resampled to match the historical prediction grid for plotting in terra [@hijmans2026].
@@ -249,7 +253,13 @@ knitr::include_graphics(
 A total of `r sum(tot_cbwf$tot)` Chestnut-breasted Whiteface were detected from `r sites_w_cbwf` of `r n_sites` sites (mean = `r mean(tot_cbwf$tot)`, sd = `r sd(tot_cbwf$tot)`).
 Birds were only detected at sites in the Coober Pedy-Glendambo region @fig-cbwf-map
 
+Chestnut-breasted whiteface appeared to be highly responsive to call playback.
+In X% (AA of BB) of detections birds were observed coming in towards the observer to investigate call playback.
+Despite this, we observed limited evidence of birds moving between cells or across transects in pursuit of call playback occurring in adjacent cells or transects, suggesting survey cell size and transect spacing was adequate to minimise double counting across surveys <!-- # PT: Maybe double check this with Darcy, but I think this was right. I certaintly didn't see much evidence that the birds followed me from one cell to the next in association with call playback. I think useful to make a commnet like this in the results as it backs up the robustness of the study design and the claims we have made about separating transects by 200 m to avoid double counting, etc. -->.
+
 <!-- NRS: this map needs improving but will do for draft -->
+
+<!-- PT: Agree. In particular it does not show the surveys regions, or even the Coober Pedy-Glendambo region which is suggested by the previous sentence -->
 
 ### Occupancy
 
@@ -262,10 +272,10 @@ delta_waic   <- round(waic$waic_null$waic - waic$waic_global$waic, 1)
 ```
 
 Detection probability was estimated to be *p* = `r round(occu_global$mean$p, 2)` (95% CrI: `r round(occu_global$q2.5$p, 2)`–`r round(occu_global$q97.5$p, 2)`), indicating moderate detectability per survey cell.
-Of the `r n_sites` sites surveyed, an estimated `r round(occu_global$mean$nocc, 1)` (95% CrI: `r round(occu_global$q2.5$nocc, 0)`–`r round(occu_global$q97.5$nocc, 0)`) were inferred to be occupied, slightly less than the observed number of sites where birds were recorded (`r sites_w_cbwf`).
+Of the `r n_sites` sites surveyed, an estimated `r round(occu_global$mean$nocc, 1)` (95% CrI: `r round(occu_global$q2.5$nocc, 0)`–`r round(occu_global$q97.5$nocc, 0)`) were inferred to be occupied, showing strong alignment between model inference and field collected data (birds recorded at `r sites_w_cbwf` sites).
 
 The global model was preferred over the null (ΔWAIC = `r delta_waic`, favouring the global model), indicating that the covariate set collectively improves out-of-sample predictive performance.
-Of the five occupancy covariates, however, the absolute change in extreme heat days was the only predictor whose 95% credible interval excluded zero (@fig-coeffs), with a negative effect on occupancy probability (posterior mean ≈ `r round(occu_global$mean$beta_heat, 2)` on the logit scale).
+<!-- # PT: how/if at all have you done model selection here? I don't think this was described. Or have you just compared two models, the global with the null? NRS: yep just compared global to null, as we are most interested in what is driving decline, not producing the most accurate predictive model. --> Of the five occupancy covariates, however, the absolute change in extreme heat days was the only predictor whose 95% credible interval excluded zero (@fig-coeffs), with a negative effect on occupancy probability (posterior mean ≈ `r round(occu_global$mean$beta_heat, 2)` on the logit scale).
 Annual rainfall, PV fractional cover, and NPV fractional cover showed positive point estimates, and 6-month rainfall a slightly negative estimate, but all four had credible intervals broadly overlapping zero, reflecting uncertainty in their individual effects given the data.
 
 ```{r}
@@ -278,13 +288,13 @@ knitr::include_graphics(
   )
 ```
 
-The spatial prediction of occupancy probability across the study region is shown in @fig-psi-maps.
-Occupancy mapping was only extended to the IBRA bioregions which have historical or current CBWF records, as the species is a habitat specialist of stony, low shrublands, and its occurrence at fine scales is constrained by the distribution of this habitat, which is patchy and not yet accurately mapped at the resolution of available remote sensing products.
-The predicted occupancy surfaces therefore reflect broad climatic and productivity suitability across the landscape rather than realised distribution within available habitat; predicted spatial extent of occupancy should be treated as indicative of regional trends rather than literal occupied area.
+<!-- # PT: is it possible to play with this figure a bit so it's a bit easier to read? Whole figure could be made a bit bigger, text on axes a bit bigger also. Is it possible to reduce spacing between point estimates to give more room -->
 
-The highest posterior mean ψ values are concentrated in the south-west of the species' range, around the Bon Bon–Glendambo area, broadly coinciding with where detection's occurred in 2024.
-Areas in the northern and eastern parts of the historical range where no birds were detected have substantially lower predicted occupancy probability.
-The credible interval maps indicate considerable uncertainty: the lower 95% CrI surface shows that even under an optimistic estimate, high-probability areas are restricted to the Bon Bon–Glendambo core, while the upper 95% CrI suggests potentially suitable conditions across a broader area.
+Spatial prediction indicates that the highest predicted posterior mean ψ values of Chestnut-breasted Whiteface occupancy are concentrated in the south-west of the species' range, around the Bon Bon–Glendambo area, broadly coinciding with where detection's occurred in 2024.
+(@fig-psi-maps), while areas in the northern and eastern parts of the historical range where no birds were detected have substantially lower predicted occupancy probability.
+The credible interval maps indicate considerable uncertainty: the lower 95% CrI surface shows that high-probability areas are restricted to the Bon Bon–Glendambo core, while the upper 95% CrI suggests potentially suitable conditions across a broader area.
+Predicted occupancy mapping was only extended to the IBRA bioregions [@thackway1997] which have historical or current CBWF records, as the species is a habitat specialist of stony, low shrublands, and its occurrence at fine scales is constrained by the distribution of this habitat, which is patchy and not yet accurately mapped at the resolution of available remote sensing products.
+The predicted occupancy surfaces therefore reflect broad climatic and productivity suitability across the landscape rather than realised distribution within available habitat; predicted spatial extent of occupancy should be treated as indicative of regional trends rather than literal occupied area.
 
 ```{r}
 #| label: fig-psi-maps
@@ -295,28 +305,28 @@ knitr::include_graphics(
   )
 ```
 
+<!-- NRS: this figure needs improvement, and the explanation of IBRA bioregions probably needs expansion in the methods? -->
+
 ### Distribution modelling
 
-The BRT model predicts occurrence probability across the historical study region for each of the three survey periods, where warmer colours indicate climate conditions more favourable to the species.
-@fig-brt-hist shows a progressive contraction of climatically suitable habitat over the past six decades.
-In 1960, moderate-to-high predicted occurrence probability extended across a broad area of the species' range.
-By 1990, and more markedly by 2024, the area of high predicted probability had contracted, with much of the northern and eastern range becoming less climatically suitable, driven predominantly by increasing extreme heat.
+Boosted regression tree models predicted a progressive contraction of climatically suitable habitat for chestnut-breasted whiteface over the past six decades (@fig-brt-hist). 
+In 1960, moderate-to-high predicted occurrence probability extended across a broad swathe of the species' range. 
+By 1990, and more markedly by 2024, the area of high predicted occurence probability had contracted, with much of the northern and eastern range becoming less climatically suitable, driven predominantly by increasing extreme heat.
 
 ```{r}
 #| label: fig-brt-hist
 #| echo: false
-#| fig-cap: "BRT-predicted occurrence probability of *A. pectoralis* across the study region for three historical survey periods (approximately 1960, 1990, and 2024), based on period-matched climate covariates (10 year average annual days exceeding 40°C and mean annual rainfall). Warmer colours indicate higher predicted occurrence probability. Red dots denote sites where CBWF were recorded in 2024, black dots denote all historical records/survey sites. A progressive contraction of climatically suitable habitat is evident over the past six decades, driven predominantly by increasing extreme heat."
+#| fig-cap: "Boosted regression tree predicted occurrence probability of Chestnut-breasted whiteface across the study region for three historical survey periods (approximately 1960, 1990, and 2024), based on period-matched climate covariates (10 year average annual days exceeding 40°C and mean annual rainfall). Warmer colours indicate higher predicted occurrence probability. Red dots denote sites where CBWF were recorded in 2024, black dots denote all historical records/survey sites. A progressive contraction of climatically suitable habitat is evident over the past six decades, driven predominantly by increasing extreme heat."
 
 knitr::include_graphics(
   file.path(proj.path, "figures", "updated_figs", "brt_historical_occupancy_sat.png")
 )
 ```
 
-Projected occurrence probability under the NARCliM2.0 ensemble scenarios is shown in @fig-brt-fut.
-Across all three emissions pathways and both time periods, the model projects further reductions in climatically suitable habitat relative to present.
-By mid-century (2040–2059), high-probability areas are projected to be largely confined to the south-western core of the current distribution.
-By late century (2080–2099), suitable climate conditions are projected to contract further under all scenarios, with the most severe reductions under SSP3-7.0.
-Under SSP1-2.6, a modest area of suitable climate persists in the south-west through the late century period, whereas under higher emissions scenarios the majority of the species' historical range is projected to become climatically unsuitable.
+Future predicted occurrence probability for Chestnut-breasted Whiteface across all three NARCliM2.0 ensemble averaged emissions scenarios suggests further reductions in climatically suitable habitat relative to the present in both mid and late century projections (@fig-brt-fut).
+By mid-century (2040–2059), high-probability areas are projected to be largely confined to the south-western margin of the species current distribution.
+By late century (2080–2099), suitable climate conditions are projected to contract further under all scenarios.
+Under SSP1-2.6, a modest area of suitable climate persists in the south-west through the late century period, whereas under the higher emissions scenarios the majority of the species' historical range is projected to become climatically unsuitable.
 
 ```{r}
 #| label: fig-brt-fut
@@ -327,6 +337,7 @@ knitr::include_graphics(
   file.path(proj.path, "figures", "updated_figs", "brt_narclim_occupancy_sat.png")
 )
 ```
+<!-- # PT: I think this figure would be clearer if you had 'NARCliM2.0 emissions scenarios' written at the very top and then had the relevant scenario listed above the relevant column, and then similar on the left hand side of the figure, i.e. you had 'Future time period' written on the far left (going vertically) and then had 2040-2059 next to the top row and 2080-2099 next to the bottom row. This is as opposed to labelling each individual figure with the relevant combination of emissions scenario and time period. -->
 
 ## Discussion
 
