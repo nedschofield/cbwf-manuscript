@@ -38,6 +38,13 @@ author:
       - Manuscript preparation
     affiliations:
       - Bush Heritage Australia
+  - name: Shawn Scott
+    orcid:  
+    corresponding: false
+    roles:  
+      - Manuscript preparation
+    affiliations:
+      - Bush Heritage Australia
   - name: Patrick L Taggart
     orcid: 0000-0001-9523-0463 
     corresponding: false
@@ -77,43 +84,44 @@ NRS NOTES 28/5/26:
 
 ## Introduction
 
-With current and ongoing high rates of extinction, the importance of ecological monitoring is fundamental to understanding the natural environment and conserving species [@lindenmayer2018].
+Ecological monitoring is fundamental to mitigating the current and ongoing high rates of extinction and species decline [@lindenmayer2018].
 Identifying declining populations through effective biodiversity monitoring can prove critical in implementing timely conservation measures [@baker2019][@butchart2006].
-This is particularly pertinent for threatened, rare and range-restricted species.
-Such species are at greater risk of rapid and unrecognised decline due to their increased susceptibility to stochastic events [@smith2020].
+This is particularly pertinent for threatened, rare and range-restricted species, that are at greater risk of rapid and unrecognised decline due to their increased susceptibility to stochastic events [@smith2020].
 
-Relative to other land types, Australian arid landscapes are typically characterised by low human population densities.
-A marked spatial unevenness in biodiversity data is seen across Australia, with sparsely populated areas often lacking in biological records [@woinarski2021].
-In theory, these factors could contribute to species declines going unnoticed in remote areas [@woinarski2021].
-Arid lands contain unique biodiversity components, the loss of which can have profound impacts on the overall ecosystem [@zhang2023].
+Relative to other land types, arid landscapes are typically characterised by low human population densities.
+A marked spatial unevenness in biodiversity data is seen in arid regions, with sparsely populated areas lacking biological records [@woinarski2021].
+These factors likely increase the probability that species declines go unnoticed in remote areas [@woinarski2021].
+Arid lands are additionally renowned for their slow recovery times due to low and irregular rainfall, shallow top soil and variable fertility, and their tendency for prolonged droughts and higher temperatures [@zhang2023].
 Threatened species in such environments therefore require carefully designed monitoring programs to inform conservation management and better detect population changes.
 
-Arid and semi-arid rangelands cover a significant proportion of Australia, and like elsewhere they are characterised by low human population density, high numbers of threatened species and high rates of extinctions [@morton1995][@woinarski2003].
-Since European settlement in Australia, 20 arid land species are known to have become extinct, with numerous others currently threatened with extinction [@woinarski2019].
-The arid rangelands have experienced rapid and extensive change in the time since European colonisation.
-While significant swathes of land still fall under Indigenous management [@renwick2017], pastoralism is one of the major land uses in the Australian arid rangelands [@letnic2006].
-Pastoral activities are known to have direct and indirect impacts on arid land ecosystem function [@letnic2007].
-Along with the impacts of pastoralism, other threats pose major challenges to species living in the arid rangelands, such as introduced species and climate change [@garnett2024].
-Naturally boom and bust systems, arid lands experience large fluctuations in available resources and environmental conditions over time [@letnic2006].
-Species living in arid environments are adapted to these changing conditions, but survival under future climate change is likely to become increasingly challenging [@conradie2020].
-By the end of the 21st century, Zebra Finches (*Taeniopygia castanotis*), a small arid-adapted passerine, are expected in some regions to experience a more than threefold increase in the number of days per year that they are exposed to lethal dehydration risk [@conradie2020].
+Arid and semi-arid rangelands cover 70% of Australia's land mass [@outback].
+A significant portion of Australia's arid rangelands is under Indigenous management [@renwick2017], with pastoralism otherwise being the major land use [@letnic2006].
+Pastoral activities directly and indirectly impact arid rangeland ecosystem function through extensive livestock grazing and widespread pastoral infrastructure such as artificial waters and barrier or exclusion fences [@letnic2007].
+Introduced species and climate change additionally pose major challenges to species occupying Australia's arid rangelands [@garnett2024].
+Combined, these rapid and extensive changes have seen Australia's rangelands experience the highest rates of species extinction of any land type, including the extinction of 20 species since European colonisation [@woinarski2019].
 
-The Chestnut-breasted Whiteface (*Aphelocephala pectoralis*) is a small passerine of arid, stony, low shrublands in northern South Australia.
-A South Australian endemic, *A. pectoralis* has a restricted range and has anecdotally faced declines in some areas.
+Australia's arid rangelands are classified as boom and bust systems, whereby available resources and environmental conditions fluctuate immensely through time [@letnic2006].
+Species occupying these arid rangelands have adapted to these changing conditions and resource pulses, however, survival under future climate change is likely to become increasingly challenging [@conradie2020].
+Future climate predictions for Australia's rangelands estimate increased warming, longer dry spells and more intense extreme weather [@stokes2008].
+For some species these changes have already been modelled.
+For example, by the end of the 21st century, the Zebra Finch (*Taeniopygia castanotis*), a small arid-adapted passerine, is expected to experience more than a threefold increase in the number of days per year that they are exposed to lethal dehydration risk in some parts of its distribution [@conradie2020].
+
+The Chestnut-breasted Whiteface (*Aphelocephala pectoralis*) is a small passerine of arid, stony, low shrublands.
+They are endemic to South Australia, and are restricted to the north and north-east of the state.
 Prior to 1990, the species was known from only 33 localities (5 unconfirmed) [@pedler1992].
-Proving elusive through the late 19th and mid-20th century, *A. pectoralis* went undetected for long periods of time on more than one occasion (43 years between the type specimen’s discovery in 1871 and the next recorded sighting in 1914, and again for another 43 years between 1923 and 1966) [@pedler1992].
-In 1990, Lynn Pedler revisited almost all the then known *A. pectoralis* localities and also discovered several new occupied sites.
-Using the results from these surveys, and observed population densities from a study site in the eastern part of the species’ range (Mount Lyndhurst), an overall population of 6000 individuals was estimated (exact methodology not stated) [@pedler1992].
+Proving elusive through the late 19th and mid-20th century, the species went undetected for long periods of time on more than one occasion (43 years between the type specimen’s discovery in 1871 and the next recorded sighting in 1914, and again for another 43 years between 1923 and 1966) [@pedler1992].
+In 1990, range-wide Chestnut-breasted Whiteface surveys revisited almost all the then known localities and also discovered several new occupied sites.
+Using the results from these surveys, and observed population densities from a study site in the eastern part of the species’ range (Mount Lyndhurst), an overall population of 6000 individuals was estimated [@pedler1992].
 Some populations were again resurveyed in 1999 [@pedler2000] and the Mount Lyndhurst population monitored again in 2007 [@pedler2007].
+However, since this time the species has experienced anecdotal declines (Lyn Pedler, pers. comm. ) and has potentially contracted from some parts of its range.
+Despite this, Chestnut-breasted Whiteface have had little to no research or conservation attention excluding the work of Pedler *et al.*
+Listed globally in the IUCN as Near Threatened, and as Rare in South Australia, the species lacks contemporary abundance and distribution data and its conservation status may reflect this uncertainty [@garnett2021].
+<!-- NRS: Need to fix these lines -->
 
-Despite the species’ apparent rarity, restricted range and anecdotal evidence of declines in some areas, *A. pectoralis* has had little to no research or conservation attention excluding the work of Pedler et al.
-Listed nationally as Near Threatened and as Rare in South Australia, *A. pectoralis* lacks contemporary abundance and distribution data and its conservation status may reflect this uncertainty [@garnett2021].
-
-This project aimed to assess the current distribution of the Chestnut-breasted Whiteface and help inform future conservation status assessments.
-To achieve this, as many of the original 1990 survey sites as possible were revisited in addition to a selection of sites where the species had since been detected.
-Through this process, we also aimed to develop a standardised, repeatable survey protocol suitable for *A. pectoralis*.
-Simultaneously, we aimed to collect as much biologically relevant information on the species as possible to help to understand their ecology and inform their conservation.
-
+We aimed to re-assess the distribution of the Chestnut-breasted Whiteface.
+We re-surveyed as many of the original 1990 surveys sites as possible, along with a selection of sites where the species had since been detected.
+Through this process, we developed a standardised, repeatable survey protocol, and using this contemporary survey information we project the species future distribution under a range of emissions scenarios.
+Our objective in this work was to inform the species conservation and future status assessments.
 ## Methods {#sec-data-methods}
 
 ### Survey Region and Site Selection
