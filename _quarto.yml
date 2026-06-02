@@ -1,6 +1,10 @@
 project:
   type: manuscript
 
+editor:
+  markdown:
+    wrap: sentence
+
 execute:
   freeze: auto
 

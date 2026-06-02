@@ -62,6 +62,9 @@ bibliography: references.bib
 citation:
   container-title: Earth and Space Science
 number-sections: true
+editor:
+  markdown:
+    wrap: sentence
 ---
 
 NRS NOTES 28/5/26:
@@ -74,17 +77,42 @@ NRS NOTES 28/5/26:
 
 ## Introduction
 
-With current and ongoing high rates of extinction, the importance of ecological monitoring is fundamental to understanding the natural environment and conserving species [@lindenmayer2018]. Identifying declining populations through effective biodiversity monitoring can prove critical in implementing timely conservation measures [@baker2019][@butchart2006]. This is particularly pertinent for threatened, rare and range-restricted species. Such species are at greater risk of rapid and unrecognised decline due to their increased susceptibility to stochastic events [@smith2020].
+With current and ongoing high rates of extinction, the importance of ecological monitoring is fundamental to understanding the natural environment and conserving species [@lindenmayer2018].
+Identifying declining populations through effective biodiversity monitoring can prove critical in implementing timely conservation measures [@baker2019][@butchart2006].
+This is particularly pertinent for threatened, rare and range-restricted species.
+Such species are at greater risk of rapid and unrecognised decline due to their increased susceptibility to stochastic events [@smith2020].
 
-Relative to other land types, Australian arid landscapes are typically characterised by low human population densities. A marked spatial unevenness in biodiversity data is seen across Australia, with sparsely populated areas often lacking in biological records [@woinarski2021]. In theory, these factors could contribute to species declines going unnoticed in remote areas [@woinarski2021]. Arid lands contain unique biodiversity components, the loss of which can have profound impacts on the overall ecosystem [@zhang2023]. Threatened species in such environments therefore require carefully designed monitoring programs to inform conservation management and better detect population changes.
+Relative to other land types, Australian arid landscapes are typically characterised by low human population densities.
+A marked spatial unevenness in biodiversity data is seen across Australia, with sparsely populated areas often lacking in biological records [@woinarski2021].
+In theory, these factors could contribute to species declines going unnoticed in remote areas [@woinarski2021].
+Arid lands contain unique biodiversity components, the loss of which can have profound impacts on the overall ecosystem [@zhang2023].
+Threatened species in such environments therefore require carefully designed monitoring programs to inform conservation management and better detect population changes.
 
-Arid and semi-arid rangelands cover a significant proportion of Australia, and like elsewhere they are characterised by low human population density, high numbers of threatened species and high rates of extinctions [@morton1995][@woinarski2003]. Since European settlement in Australia, 20 arid land species are known to have become extinct, with numerous others currently threatened with extinction [@woinarski2019]. The arid rangelands have experienced rapid and extensive change in the time since European colonisation. While significant swathes of land still fall under Indigenous management [@renwick2017], pastoralism is one of the major land uses in the Australian arid rangelands [@letnic2006]. Pastoral activities are known to have direct and indirect impacts on arid land ecosystem function [@letnic2007]. Along with the impacts of pastoralism, other threats pose major challenges to species living in the arid rangelands, such as introduced species and climate change [@garnett2024]. Naturally boom and bust systems, arid lands experience large fluctuations in available resources and environmental conditions over time [@letnic2006]. Species living in arid environments are adapted to these changing conditions, but survival under future climate change is likely to become increasingly challenging [@conradie2020]. By the end of the 21st century, Zebra Finches (*Taeniopygia castanotis*), a small arid-adapted passerine, are expected in some regions to experience a more than threefold increase in the number of days per year that they are exposed to lethal dehydration risk [@conradie2020].
+Arid and semi-arid rangelands cover a significant proportion of Australia, and like elsewhere they are characterised by low human population density, high numbers of threatened species and high rates of extinctions [@morton1995][@woinarski2003].
+Since European settlement in Australia, 20 arid land species are known to have become extinct, with numerous others currently threatened with extinction [@woinarski2019].
+The arid rangelands have experienced rapid and extensive change in the time since European colonisation.
+While significant swathes of land still fall under Indigenous management [@renwick2017], pastoralism is one of the major land uses in the Australian arid rangelands [@letnic2006].
+Pastoral activities are known to have direct and indirect impacts on arid land ecosystem function [@letnic2007].
+Along with the impacts of pastoralism, other threats pose major challenges to species living in the arid rangelands, such as introduced species and climate change [@garnett2024].
+Naturally boom and bust systems, arid lands experience large fluctuations in available resources and environmental conditions over time [@letnic2006].
+Species living in arid environments are adapted to these changing conditions, but survival under future climate change is likely to become increasingly challenging [@conradie2020].
+By the end of the 21st century, Zebra Finches (*Taeniopygia castanotis*), a small arid-adapted passerine, are expected in some regions to experience a more than threefold increase in the number of days per year that they are exposed to lethal dehydration risk [@conradie2020].
 
-The Chestnut-breasted Whiteface (*Aphelocephala pectoralis*) is a small passerine of arid, stony, low shrublands in northern South Australia. A South Australian endemic, *A. pectoralis* has a restricted range and has anecdotally faced declines in some areas. Prior to 1990, the species was known from only 33 localities (5 unconfirmed) [@pedler1992]. Proving elusive through the late 19th and mid-20th century, *A. pectoralis* went undetected for long periods of time on more than one occasion (43 years between the type specimen’s discovery in 1871 and the next recorded sighting in 1914, and again for another 43 years between 1923 and 1966) [@pedler1992]. In 1990, Lynn Pedler revisited almost all the then known *A. pectoralis* localities and also discovered several new occupied sites. Using the results from these surveys, and observed population densities from a study site in the eastern part of the species’ range (Mount Lyndhurst), an overall population of 6000 individuals was estimated (exact methodology not stated) [@pedler1992]. Some populations were again resurveyed in 1999 [@pedler2000] and the Mount Lyndhurst population monitored again in 2007 [@pedler2007].
+The Chestnut-breasted Whiteface (*Aphelocephala pectoralis*) is a small passerine of arid, stony, low shrublands in northern South Australia.
+A South Australian endemic, *A. pectoralis* has a restricted range and has anecdotally faced declines in some areas.
+Prior to 1990, the species was known from only 33 localities (5 unconfirmed) [@pedler1992].
+Proving elusive through the late 19th and mid-20th century, *A. pectoralis* went undetected for long periods of time on more than one occasion (43 years between the type specimen’s discovery in 1871 and the next recorded sighting in 1914, and again for another 43 years between 1923 and 1966) [@pedler1992].
+In 1990, Lynn Pedler revisited almost all the then known *A. pectoralis* localities and also discovered several new occupied sites.
+Using the results from these surveys, and observed population densities from a study site in the eastern part of the species’ range (Mount Lyndhurst), an overall population of 6000 individuals was estimated (exact methodology not stated) [@pedler1992].
+Some populations were again resurveyed in 1999 [@pedler2000] and the Mount Lyndhurst population monitored again in 2007 [@pedler2007].
 
-Despite the species’ apparent rarity, restricted range and anecdotal evidence of declines in some areas, *A. pectoralis* has had little to no research or conservation attention excluding the work of Pedler et al. Listed nationally as Near Threatened and as Rare in South Australia, *A. pectoralis* lacks contemporary abundance and distribution data and its conservation status may reflect this uncertainty [@garnett2021].
+Despite the species’ apparent rarity, restricted range and anecdotal evidence of declines in some areas, *A. pectoralis* has had little to no research or conservation attention excluding the work of Pedler et al.
+Listed nationally as Near Threatened and as Rare in South Australia, *A. pectoralis* lacks contemporary abundance and distribution data and its conservation status may reflect this uncertainty [@garnett2021].
 
-This project aimed to assess the current distribution of the Chestnut-breasted Whiteface and help inform future conservation status assessments. To achieve this, as many of the original 1990 survey sites as possible were revisited in addition to a selection of sites where the species had since been detected. Through this process, we also aimed to develop a standardised, repeatable survey protocol suitable for *A. pectoralis*. Simultaneously, we aimed to collect as much biologically relevant information on the species as possible to help to understand their ecology and inform their conservation.
+This project aimed to assess the current distribution of the Chestnut-breasted Whiteface and help inform future conservation status assessments.
+To achieve this, as many of the original 1990 survey sites as possible were revisited in addition to a selection of sites where the species had since been detected.
+Through this process, we also aimed to develop a standardised, repeatable survey protocol suitable for *A. pectoralis*.
+Simultaneously, we aimed to collect as much biologically relevant information on the species as possible to help to understand their ecology and inform their conservation.
 
 ## Methods {#sec-data-methods}
 
@@ -112,27 +140,53 @@ st <- d |>
 
 ```
 
-Surveys were conducted across the known range of the Chestnut-breasted Whiteface in arid northern South Australia between June and September 2024. Survey sites were selected to reassess historical localities and more recent records of the species, rather than to provide a random sample of available habitat. The core set of survey sites was based on localities surveyed in [@pedler1992] during a review of the species’ distribution and status, including sites where Chestnut-breasted Whiteface were detected and sites where surveys were unsuccessful. Additional sites were included from subsequent surveys in 1999–2000 [@pedler2000] and from more recent species records, particularly where these records represented areas not well covered by the 1990 survey network.
+Surveys were conducted across the known range of the Chestnut-breasted Whiteface in arid northern South Australia between June and September 2024.
+Survey sites were selected to reassess historical localities and more recent records of the species, rather than to provide a random sample of available habitat.
+The core set of survey sites was based on localities surveyed in [@pedler1992] during a review of the species’ distribution and status, including sites where Chestnut-breasted Whiteface were detected and sites where surveys were unsuccessful.
+Additional sites were included from subsequent surveys in 1999–2000 [@pedler2000] and from more recent species records, particularly where these records represented areas not well covered by the 1990 survey network.
 
-In total, `r n_sites` sites were surveyed. These sites were distributed across four broad regions: the Coober Pedy–Glendambo region; the Oodnadatta region, including sites between Marla and Oodnadatta and between Nilpinna and William Creek; the Marree–Leigh Creek region, including the Lyndhurst–Birdsville Track area; and the Gawler Ranges–Lake Gairdner region, including sites around Mt Ive and Nonning. Most sites occurred within arid stony plains, chenopod shrublands and associated low shrubland habitats on working pastoral properties.
+In total, `r n_sites` sites were surveyed.
+These sites were distributed across four broad regions: the Coober Pedy–Glendambo region; the Oodnadatta region, including sites between Marla and Oodnadatta and between Nilpinna and William Creek; the Marree–Leigh Creek region, including the Lyndhurst–Birdsville Track area; and the Gawler Ranges–Lake Gairdner region, including sites around Mt Ive and Nonning.
+Most sites occurred within arid stony plains, chenopod shrublands and associated low shrubland habitats on working pastoral properties.
 
-Where accurate location information was available, survey cells were positioned to encompass the original historical survey locality as closely as possible. For some historical records, however, location information was imprecise or unavailable at the scale required to relocate the original survey point. In these cases, surveys were placed within the approximate locality described by the historical record and in habitat judged to be broadly comparable to that originally surveyed. A map of surveyed sites and their broad regional grouping is provided in @fig-cbwf-map.
+Where accurate location information was available, survey cells were positioned to encompass the original historical survey locality as closely as possible.
+For some historical records, however, location information was imprecise or unavailable at the scale required to relocate the original survey point.
+In these cases, surveys were placed within the approximate locality described by the historical record and in habitat judged to be broadly comparable to that originally surveyed.
+A map of surveyed sites and their broad regional grouping is provided in @fig-cbwf-map.
 
 ### Survey Methods
 
-At each site, we conducted a set of repeated area searches designed to provide standardised count data while maximising the probability of detecting a rare and potentially patchily distributed species. The standard survey unit was a 20-minute, 5-ha area search. Each site comprised ten such survey cells, giving a total surveyed area of 50 ha per site. Cells were arranged in two spatially separated transects, with five 5-ha cells in each transect. Transects were separated by 200m to reduce the risk of double-counting individuals and to minimise interference between observers and playback in adjacent transects. Each cell was surveyed once during a site visit.
+At each site, we conducted a set of repeated area searches designed to provide standardised count data while maximising the probability of detecting a rare and potentially patchily distributed species.
+The standard survey unit was a 20-minute, 5-ha area search.
+Each site comprised ten such survey cells, giving a total surveyed area of 50 ha per site.
+Cells were arranged in two spatially separated transects, with five 5-ha cells in each transect.
+Transects were separated by 200m to reduce the risk of double-counting individuals and to minimise interference between observers and playback in adjacent transects.
+Each cell was surveyed once during a site visit.
 
-Surveys were conducted on foot by a single observer per cell using binoculars. Where two observers were conducting the survey, observers surveyed separate transects independently, beginning at one end of the transect and moving sequentially through the five cells. This ensured a consistent direction of travel through each transect and reduced the likelihood of repeatedly flushing or re-counting birds between cells. In each cell, observers recorded the number of Chestnut-breasted Whiteface detected during the 20-minute search, and for each detection, observers recorded the number of individuals detected and whether the initial detection occurred before or after call playback. To increase detectability, at the centre of each 5-ha cell, observers broadcast Chestnut-breasted Whiteface vocalisations consisting of 30 seconds of calls and song, followed by a 30-second listening period, then a second 30-second broadcast followed by a second 30-second listening period. The use of short, standardised playback bouts was intended to increase the probability of detecting birds present within the cell while limiting attraction from beyond the surveyed area. Playback was conducted consistently across cells so that survey effort was comparable among sites.
+Surveys were conducted on foot by a single observer per cell using binoculars.
+Where two observers were conducting the survey, observers surveyed separate transects independently, beginning at one end of the transect and moving sequentially through the five cells.
+This ensured a consistent direction of travel through each transect and reduced the likelihood of repeatedly flushing or re-counting birds between cells.
+In each cell, observers recorded the number of Chestnut-breasted Whiteface detected during the 20-minute search, and for each detection, observers recorded the number of individuals detected and whether the initial detection occurred before or after call playback.
+To increase detectability, at the centre of each 5-ha cell, observers broadcast Chestnut-breasted Whiteface vocalisations consisting of 30 seconds of calls and song, followed by a 30-second listening period, then a second 30-second broadcast followed by a second 30-second listening period.
+The use of short, standardised playback bouts was intended to increase the probability of detecting birds present within the cell while limiting attraction from beyond the surveyed area.
+Playback was conducted consistently across cells so that survey effort was comparable among sites.
 
-Surveys were generally conducted in the morning (`r nrow(subset(st, st < 10.5))` of `r n_sites` sites started before 10:30AM), although the remoteness of sites and long travel distances meant that some surveys were completed later in the day. Surveys were not conducted, where avoidable, during very strong winds likely to substantially reduce detectability. For each cell, observers recorded the date, survey start time and broad survey conditions, including wind, cloud cover, rain and temperature category. At the centre of each cell, four habitat photographs were taken facing approximately north, east, south and west. These photographs, together with field notes, were used to classify the broad habitat of each survey cell.
+Surveys were generally conducted in the morning (`r nrow(subset(st, st < 10.5))` of `r n_sites` sites started before 10:30AM), although the remoteness of sites and long travel distances meant that some surveys were completed later in the day.
+Surveys were not conducted, where avoidable, during very strong winds likely to substantially reduce detectability.
+For each cell, observers recorded the date, survey start time and broad survey conditions, including wind, cloud cover, rain and temperature category.
+At the centre of each cell, four habitat photographs were taken facing approximately north, east, south and west.
+These photographs, together with field notes, were used to classify the broad habitat of each survey cell.
 
-The ten-cell design provided replicated surveys within each site, increasing the probability of detecting Chestnut-breasted Whiteface where present and providing repeated count data while accounting for imperfect detection. This design also balanced statistical and logistical requirements: greater replication was desirable because the species is rare and often occurs at low density, but survey effort had to remain feasible across a large, remote study region with widely separated sites.
+The ten-cell design provided replicated surveys within each site, increasing the probability of detecting Chestnut-breasted Whiteface where present and providing repeated count data while accounting for imperfect detection.
+This design also balanced statistical and logistical requirements: greater replication was desirable because the species is rare and often occurs at low density, but survey effort had to remain feasible across a large, remote study region with widely separated sites.
 
 ### Data Analysis
 
 #### Occupancy
 
-We fitted a Bayesian single-season occupancy model in JAGS [@plummer2003] to estimate site-level occupancy probability (ψ) and detection probability (*p*). During initial data exploration no cell-level survey condition covariates had any effect on detection, and so detection probability was held constant across all sites and visits. The global model included five site-level covariates on occupancy (@tbl-covariates).
+We fitted a Bayesian single-season occupancy model in JAGS [@plummer2003] to estimate site-level occupancy probability (ψ) and detection probability (*p*).
+During initial data exploration no cell-level survey condition covariates had any effect on detection, and so detection probability was held constant across all sites and visits.
+The global model included five site-level covariates on occupancy (@tbl-covariates).
 
 | Variable | Derivation | Inclusion rationale |
 |------------------|------------------------|------------------------------|
@@ -144,19 +198,33 @@ We fitted a Bayesian single-season occupancy model in JAGS [@plummer2003] to est
 
 : Occupancy covariates included in the global model. All raw data accessed through NCI THREDDS database. Please see supplementary materials for detailed methods and code for deriving the covariate rasters.
 
-All covariates were standardised to zero mean and unit variance before model fitting. A null model with no occupancy covariates was also fitted and compared to the global model using the Widely Applicable Information Criterion (WAIC), computed by marginalising the latent occupancy state analytically for each posterior sample. WAIC is preferred over DIC for hierarchical models with discrete latent states because it averages over the full posterior rather than conditioning on a point estimate.
+All covariates were standardised to zero mean and unit variance before model fitting.
+A null model with no occupancy covariates was also fitted and compared to the global model using the Widely Applicable Information Criterion (WAIC), computed by marginalising the latent occupancy state analytically for each posterior sample.
+WAIC is preferred over DIC for hierarchical models with discrete latent states because it averages over the full posterior rather than conditioning on a point estimate.
 
-All regression coefficients and intercept parameters were given weakly informative Normal(0, 1) priors on the logit scale. Models were run with 3 MCMC chains of 20,000 iterations each, with a burn-in of 5,000 and thinning by a factor of 5, yielding 9,000 retained posterior samples. Convergence was confirmed using the Gelman-Rubin diagnostic (R̂ \< 1.1 for all parameters), and model fit was assessed via a Bayesian posterior predictive check using the Freeman-Tukey statistic.
+All regression coefficients and intercept parameters were given weakly informative Normal(0, 1) priors on the logit scale.
+Models were run with 3 MCMC chains of 20,000 iterations each, with a burn-in of 5,000 and thinning by a factor of 5, yielding 9,000 retained posterior samples.
+Convergence was confirmed using the Gelman-Rubin diagnostic (R̂ \< 1.1 for all parameters), and model fit was assessed via a Bayesian posterior predictive check using the Freeman-Tukey statistic.
 
-Occupancy probability was predicted spatially across the study region by applying the fitted model to 1 km² aggregated raster layers of each covariate (aggregated by a factor of 10 from the native \~100 m resolution). The September 6-month rainfall layer was used for spatial prediction, as the majority of surveys were conducted in September. Uncertainty was propagated by drawing 500 thinned samples from the joint posterior to produce 95% credible interval surfaces alongside the posterior mean.
+Occupancy probability was predicted spatially across the study region by applying the fitted model to 1 km² aggregated raster layers of each covariate (aggregated by a factor of 10 from the native \~100 m resolution).
+The September 6-month rainfall layer was used for spatial prediction, as the majority of surveys were conducted in September.
+Uncertainty was propagated by drawing 500 thinned samples from the joint posterior to produce 95% credible interval surfaces alongside the posterior mean.
 
 #### Distribution modelling
 
-To place the 2024 survey results in a historical and future climate context, we fitted a boosted regression tree (BRT) model of *A. pectoralis* occurrence probability using survey records from three time periods: approximately 1960, 1990, and 2024. The dataset combined our 2024 survey records, the 1990 survey records of @pedler1992, and historical presence records compiled by @pedler1992 (predominantly from the 1960s). All records were coded as binary presence/absence observations. For each record, period-matched climate data were extracted from AGCD gridded products: mean annual days with maximum temperature exceeding 40°C and mean annual rainfall (mm), averaged over a 10-year window centred on each survey period (1950–1960 for the 1960 period, 1980–1990 for the 1990 period, and 2014–2024 for the 2024 period; AGCD daily maximum temperature v1-0-3 and monthly precipitation v2-0-3).
+To place the 2024 survey results in a historical and future climate context, we fitted a boosted regression tree (BRT) model of *A. pectoralis* occurrence probability using survey records from three time periods: approximately 1960, 1990, and 2024.
+The dataset combined our 2024 survey records, the 1990 survey records of @pedler1992, and historical presence records compiled by @pedler1992 (predominantly from the 1960s).
+All records were coded as binary presence/absence observations.
+For each record, period-matched climate data were extracted from AGCD gridded products: mean annual days with maximum temperature exceeding 40°C and mean annual rainfall (mm), averaged over a 10-year window centred on each survey period (1950–1960 for the 1960 period, 1980–1990 for the 1990 period, and 2014–2024 for the 2024 period; AGCD daily maximum temperature v1-0-3 and monthly precipitation v2-0-3).
 
-The BRT model was fitted using the function *dismo::gbm.step* [@elith2008], with a Bernoulli error family, tree complexity of 3, learning rate of 0.001, and bag fraction of 0.5. The optimal number of trees was determined by cross-validation within *gbm.step*.
+The BRT model was fitted using the function *dismo::gbm.step* [@elith2008], with a Bernoulli error family, tree complexity of 3, learning rate of 0.001, and bag fraction of 0.5.
+The optimal number of trees was determined by cross-validation within *gbm.step*.
 
-To project occurrence probability under future climate scenarios, we obtained NARCliM2.0 regional climate model output from the NCI THREDDS server. Bias-corrected daily maximum temperature (tasmaxAdjust) and precipitation (prAdjust) data were downloaded for five global climate models (ACCESS-ESM1-5, EC-Earth3-Veg, MPI-ESM1-2-HR, NorESM2-MM, and UKESM1-0-LL), three emissions scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0), and two WRF regional climate model configurations (R3 and R5), for two 20-year periods: mid-century (2040–2059) and late-century (2080–2099). For each GCM/SSP/RCM/period combination, we computed mean annual days exceeding 40°C and mean annual rainfall. These were then ensemble-averaged across GCMs and RCMs within each SSP×period group, producing six projected climate scenarios. The BRT model was applied to each scenario to generate gridded occurrence probability surfaces, which were reprojected and resampled to match the historical prediction grid for plotting in terra [@hijmans2026].
+To project occurrence probability under future climate scenarios, we obtained NARCliM2.0 regional climate model output from the NCI THREDDS server.
+Bias-corrected daily maximum temperature (tasmaxAdjust) and precipitation (prAdjust) data were downloaded for five global climate models (ACCESS-ESM1-5, EC-Earth3-Veg, MPI-ESM1-2-HR, NorESM2-MM, and UKESM1-0-LL), three emissions scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0), and two WRF regional climate model configurations (R3 and R5), for two 20-year periods: mid-century (2040–2059) and late-century (2080–2099).
+For each GCM/SSP/RCM/period combination, we computed mean annual days exceeding 40°C and mean annual rainfall.
+These were then ensemble-averaged across GCMs and RCMs within each SSP×period group, producing six projected climate scenarios.
+The BRT model was applied to each scenario to generate gridded occurrence probability surfaces, which were reprojected and resampled to match the historical prediction grid for plotting in terra [@hijmans2026].
 
 ## Results
 
@@ -170,7 +238,8 @@ knitr::include_graphics(
 )
 ```
 
-A total of `r sum(tot_cbwf$tot)` Chestnut-breasted Whiteface were detected from `r sites_w_cbwf` of `r n_sites` sites (mean = `r mean(tot_cbwf$tot)`, sd = `r sd(tot_cbwf$tot)`). Birds were only detected at sites in the Coober Pedy-Glendambo region @fig-cbwf-map
+A total of `r sum(tot_cbwf$tot)` Chestnut-breasted Whiteface were detected from `r sites_w_cbwf` of `r n_sites` sites (mean = `r mean(tot_cbwf$tot)`, sd = `r sd(tot_cbwf$tot)`).
+Birds were only detected at sites in the Coober Pedy-Glendambo region @fig-cbwf-map
 
 <!-- NRS: this map needs improving but will do for draft -->
 
@@ -184,9 +253,12 @@ waic         <- readRDS(paste0(proj.path, "outputs/waic_comparison.rds"))
 delta_waic   <- round(waic$waic_null$waic - waic$waic_global$waic, 1)
 ```
 
-Detection probability was estimated to be *p* = `r round(occu_global$mean$p, 2)` (95% CrI: `r round(occu_global$q2.5$p, 2)`–`r round(occu_global$q97.5$p, 2)`), indicating moderate detectability per survey cell. Of the `r n_sites` sites surveyed, an estimated `r round(occu_global$mean$nocc, 1)` (95% CrI: `r round(occu_global$q2.5$nocc, 0)`–`r round(occu_global$q97.5$nocc, 0)`) were inferred to be occupied, slightly less than the observed number of sites where birds were recorded (`r sites_w_cbwf`).
+Detection probability was estimated to be *p* = `r round(occu_global$mean$p, 2)` (95% CrI: `r round(occu_global$q2.5$p, 2)`–`r round(occu_global$q97.5$p, 2)`), indicating moderate detectability per survey cell.
+Of the `r n_sites` sites surveyed, an estimated `r round(occu_global$mean$nocc, 1)` (95% CrI: `r round(occu_global$q2.5$nocc, 0)`–`r round(occu_global$q97.5$nocc, 0)`) were inferred to be occupied, slightly less than the observed number of sites where birds were recorded (`r sites_w_cbwf`).
 
-The global model was preferred over the null (ΔWAIC = `r delta_waic`, favouring the global model), indicating that the covariate set collectively improves out-of-sample predictive performance. Of the five occupancy covariates, however, the absolute change in extreme heat days was the only predictor whose 95% credible interval excluded zero (@fig-coeffs), with a negative effect on occupancy probability (posterior mean ≈ `r round(occu_global$mean$beta_heat, 2)` on the logit scale). Annual rainfall, PV fractional cover, and NPV fractional cover showed positive point estimates, and 6-month rainfall a slightly negative estimate, but all four had credible intervals broadly overlapping zero, reflecting uncertainty in their individual effects given the data.
+The global model was preferred over the null (ΔWAIC = `r delta_waic`, favouring the global model), indicating that the covariate set collectively improves out-of-sample predictive performance.
+Of the five occupancy covariates, however, the absolute change in extreme heat days was the only predictor whose 95% credible interval excluded zero (@fig-coeffs), with a negative effect on occupancy probability (posterior mean ≈ `r round(occu_global$mean$beta_heat, 2)` on the logit scale).
+Annual rainfall, PV fractional cover, and NPV fractional cover showed positive point estimates, and 6-month rainfall a slightly negative estimate, but all four had credible intervals broadly overlapping zero, reflecting uncertainty in their individual effects given the data.
 
 ```{r}
 #| label: fig-coeffs
@@ -198,9 +270,13 @@ knitr::include_graphics(
   )
 ```
 
-The spatial prediction of occupancy probability across the study region is shown in @fig-psi-maps. Occupancy mapping was only extended to the IBRA bioregions which have historical or current CBWF records, as the species is a habitat specialist of stony, low shrublands, and its occurrence at fine scales is constrained by the distribution of this habitat, which is patchy and not yet accurately mapped at the resolution of available remote sensing products. The predicted occupancy surfaces therefore reflect broad climatic and productivity suitability across the landscape rather than realised distribution within available habitat; predicted spatial extent of occupancy should be treated as indicative of regional trends rather than literal occupied area.
+The spatial prediction of occupancy probability across the study region is shown in @fig-psi-maps.
+Occupancy mapping was only extended to the IBRA bioregions which have historical or current CBWF records, as the species is a habitat specialist of stony, low shrublands, and its occurrence at fine scales is constrained by the distribution of this habitat, which is patchy and not yet accurately mapped at the resolution of available remote sensing products.
+The predicted occupancy surfaces therefore reflect broad climatic and productivity suitability across the landscape rather than realised distribution within available habitat; predicted spatial extent of occupancy should be treated as indicative of regional trends rather than literal occupied area.
 
-The highest posterior mean ψ values are concentrated in the south-west of the species' range, around the Bon Bon–Glendambo area, broadly coinciding with where detection's occurred in 2024. Areas in the northern and eastern parts of the historical range where no birds were detected have substantially lower predicted occupancy probability. The credible interval maps indicate considerable uncertainty: the lower 95% CrI surface shows that even under an optimistic estimate, high-probability areas are restricted to the Bon Bon–Glendambo core, while the upper 95% CrI suggests potentially suitable conditions across a broader area.
+The highest posterior mean ψ values are concentrated in the south-west of the species' range, around the Bon Bon–Glendambo area, broadly coinciding with where detection's occurred in 2024.
+Areas in the northern and eastern parts of the historical range where no birds were detected have substantially lower predicted occupancy probability.
+The credible interval maps indicate considerable uncertainty: the lower 95% CrI surface shows that even under an optimistic estimate, high-probability areas are restricted to the Bon Bon–Glendambo core, while the upper 95% CrI suggests potentially suitable conditions across a broader area.
 
 ```{r}
 #| label: fig-psi-maps
@@ -213,7 +289,10 @@ knitr::include_graphics(
 
 ### Distribution modelling
 
-The BRT model predicts occurrence probability across the historical study region for each of the three survey periods, where warmer colours indicate climate conditions more favourable to the species. @fig-brt-hist shows a progressive contraction of climatically suitable habitat over the past six decades. In 1960, moderate-to-high predicted occurrence probability extended across a broad area of the species' range. By 1990, and more markedly by 2024, the area of high predicted probability had contracted, with much of the northern and eastern range becoming less climatically suitable, driven predominantly by increasing extreme heat.
+The BRT model predicts occurrence probability across the historical study region for each of the three survey periods, where warmer colours indicate climate conditions more favourable to the species.
+@fig-brt-hist shows a progressive contraction of climatically suitable habitat over the past six decades.
+In 1960, moderate-to-high predicted occurrence probability extended across a broad area of the species' range.
+By 1990, and more markedly by 2024, the area of high predicted probability had contracted, with much of the northern and eastern range becoming less climatically suitable, driven predominantly by increasing extreme heat.
 
 ```{r}
 #| label: fig-brt-hist
@@ -225,7 +304,11 @@ knitr::include_graphics(
 )
 ```
 
-Projected occurrence probability under the NARCliM2.0 ensemble scenarios is shown in @fig-brt-fut. Across all three emissions pathways and both time periods, the model projects further reductions in climatically suitable habitat relative to present. By mid-century (2040–2059), high-probability areas are projected to be largely confined to the south-western core of the current distribution. By late century (2080–2099), suitable climate conditions are projected to contract further under all scenarios, with the most severe reductions under SSP3-7.0. Under SSP1-2.6, a modest area of suitable climate persists in the south-west through the late century period, whereas under higher emissions scenarios the majority of the species' historical range is projected to become climatically unsuitable.
+Projected occurrence probability under the NARCliM2.0 ensemble scenarios is shown in @fig-brt-fut.
+Across all three emissions pathways and both time periods, the model projects further reductions in climatically suitable habitat relative to present.
+By mid-century (2040–2059), high-probability areas are projected to be largely confined to the south-western core of the current distribution.
+By late century (2080–2099), suitable climate conditions are projected to contract further under all scenarios, with the most severe reductions under SSP3-7.0.
+Under SSP1-2.6, a modest area of suitable climate persists in the south-west through the late century period, whereas under higher emissions scenarios the majority of the species' historical range is projected to become climatically unsuitable.
 
 ```{r}
 #| label: fig-brt-fut
@@ -239,19 +322,52 @@ knitr::include_graphics(
 
 ## Discussion
 
-This study provides the first systematic reassessment of the distribution and status of the Chestnut-breasted Whiteface across much of its known range since the surveys of Lyn Pedler and colleagues in the 1990's and 2000's [@pedler1992; @pedler2000; @pedler2007]. By revisiting historical localities, surveying more recent observation sites, and applying a repeatable site-based survey protocol, we provide an updated baseline for a species that has long been considered rare, poorly known and potentially declining. Overall, our results indicate that *A. pectoralis* persists in the South-West of its range around Glendambo and Coober Pedy, but was not detected from historical strongholds in the East around Mt Lyndhurst, nor from any sites along the Oodnadatta track where it has previously been recorded. Much of these areas were predicted to have low likelihood of occupancy, under current and future climate envelopes. Of note, parts of the predicted range to the north around (Indulkana in the APY lands) which were not surveyed in 2024 have a relatively high estimated occupancy probability. Birds are regularly reported from this area by observers travelling the Stuart Highway, which is supported by our model output despite the closest survey sites recorded as unoccupied in 2024.
+This study provides the first systematic reassessment of the distribution and status of the Chestnut-breasted Whiteface across much of its known range since the surveys of Lyn Pedler and colleagues in the 1990's and 2000's [@pedler1992; @pedler2000; @pedler2007].
+By revisiting historical localities, surveying more recent observation sites, and applying a repeatable site-based survey protocol, we provide an updated baseline for a species that has long been considered rare, poorly known and potentially declining.
+Overall, our results indicate that *A. pectoralis* persists in the South-West of its range around Glendambo and Coober Pedy, but was not detected from historical strongholds in the East around Mt Lyndhurst, nor from any sites along the Oodnadatta track where it has previously been recorded.
+Much of these areas were predicted to have low likelihood of occupancy, under current and future climate envelopes.
+Of note, parts of the predicted range to the north around (Indulkana in the APY lands) which were not surveyed in 2024 have a relatively high estimated occupancy probability.
+Birds are regularly reported from this area by observers travelling the Stuart Highway, which is supported by our model output despite the closest survey sites recorded as unoccupied in 2024.
 
-Of the five covariates examined, the absolute increase in days per year exceeding 40°C was the only predictor whose 95% credible interval clearly excluded zero, with a consistently negative effect on occupancy probability. The direction and magnitude of this effect is ecologically plausible. Small passerines in arid environments are vulnerable to extreme heat through acute lethal risks from dehydration and hyperthermia during high-temperature events [@conradie2020][@mckechnie2009]. Metabolic water requirements increase sharply above thermoneutral zone temperatures, and for species without access to free water, as is typical across much of the stony shrubland habitat used by *A. pectoralis*, heat waves can impose lethal physiological stress even when brief [@conradie2020]. Prolonged heat can also cause chronic sublethal effects, such as progressive body mass loss, reduced nestling growth rates, and increased breeding failure in other arid zone species [@conradie2019]. The projected more-than-threefold increase in lethal dehydration risk days for Zebra Finches (*Taeniopygia castanotis*) in some regions by the end of the 21st century [@conradie2020] demonstrates the magnitude of the threat to small arid-zone passerines under continued warming, and there is no strong reason to expect *A. pectoralis* to be substantially more resilient.
+Of the five covariates examined, the absolute increase in days per year exceeding 40°C was the only predictor whose 95% credible interval clearly excluded zero, with a consistently negative effect on occupancy probability.
+The direction and magnitude of this effect is ecologically plausible.
+Small passerines in arid environments are vulnerable to extreme heat through acute lethal risks from dehydration and hyperthermia during high-temperature events [@conradie2020][@mckechnie2009].
+Metabolic water requirements increase sharply above thermoneutral zone temperatures, and for species without access to free water, as is typical across much of the stony shrubland habitat used by *A. pectoralis*, heat waves can impose lethal physiological stress even when brief [@conradie2020].
+Prolonged heat can also cause chronic sublethal effects, such as progressive body mass loss, reduced nestling growth rates, and increased breeding failure in other arid zone species [@conradie2019].
+The projected more-than-threefold increase in lethal dehydration risk days for Zebra Finches (*Taeniopygia castanotis*) in some regions by the end of the 21st century [@conradie2020] demonstrates the magnitude of the threat to small arid-zone passerines under continued warming, and there is no strong reason to expect *A. pectoralis* to be substantially more resilient.
 
-This interpretation is reinforced by the BRT analysis, which used an expanded dataset and alternate modelling framework. Across both historical reconstructions and future projections, change in extreme heat days was the primary axis along which climatically suitable habitat contracts. The convergence of the two modelling approaches on the same predictor provides reasonable grounds for treating extreme heat as a genuine driver of the species' current distribution. The historical pattern in the BRT projections is consistent with this: the contraction of high-probability habitat between 1960 and 2024 aligns geographically with areas that have experienced the greatest increases in extreme heat days, particularly the northern and eastern parts of the range around Oodnadatta and Mt Lyndhurst. Future projections amplify this pattern, with a suitable climate envelope largely confined to the south-western core by mid-century under all emissions pathways, and dissappearing under higher emissions scenarios by late century.
+This interpretation is reinforced by the BRT analysis, which used an expanded dataset and alternate modelling framework.
+Across both historical reconstructions and future projections, change in extreme heat days was the primary axis along which climatically suitable habitat contracts.
+The convergence of the two modelling approaches on the same predictor provides reasonable grounds for treating extreme heat as a genuine driver of the species' current distribution.
+The historical pattern in the BRT projections is consistent with this: the contraction of high-probability habitat between 1960 and 2024 aligns geographically with areas that have experienced the greatest increases in extreme heat days, particularly the northern and eastern parts of the range around Oodnadatta and Mt Lyndhurst.
+Future projections amplify this pattern, with a suitable climate envelope largely confined to the south-western core by mid-century under all emissions pathways, and dissappearing under higher emissions scenarios by late century.
 
-The remaining four covariates all had credible intervals broadly spanning zero. This reflects genuine uncertainty in the data rather than implying these variables are unimportant ecologically. The occupancy modelling was necessarily based on a sample of sites chosen to cover historical localities rather than to span the full range of environmental conditions, which reduces statistical power to isolate individual covariate effects, particularly where predictors are correlated with one another. The positive point estimates for NPV, annual rainfall and PV are nonetheless in ecologically plausible directions. In boom-bust arid systems, rainfall pulses drive the production of standing dry biomass, which in turn supports the invertebrate food web underpinning the diet of many insectivorous passerines [@wijas2026; @wijas2023; @letnic2006]. A positive association between both PV and NPV and occupancy would be consistent with *A. pectoralis* persisting at higher density in areas with greater food web support. Similarly, a general positive rainfall trend would be consistent with fewer extreme resource shortfalls over time, though the slightly negative estimate for the shorter six-month rainfall window is harder to interpret and could reflect a local negative relationship between recent rainfall and detection at some sites, or simply sampling noise. These effects warrant revisiting with a larger or more systematically designed survey dataset before strong conclusions can be drawn about their individual contributions.
+The remaining four covariates all had credible intervals broadly spanning zero.
+This reflects genuine uncertainty in the data rather than implying these variables are unimportant ecologically.
+The occupancy modelling was necessarily based on a sample of sites chosen to cover historical localities rather than to span the full range of environmental conditions, which reduces statistical power to isolate individual covariate effects, particularly where predictors are correlated with one another.
+The positive point estimates for NPV, annual rainfall and PV are nonetheless in ecologically plausible directions.
+In boom-bust arid systems, rainfall pulses drive the production of standing dry biomass, which in turn supports the invertebrate food web underpinning the diet of many insectivorous passerines [@wijas2026; @wijas2023; @letnic2006].
+A positive association between both PV and NPV and occupancy would be consistent with *A. pectoralis* persisting at higher density in areas with greater food web support.
+Similarly, a general positive rainfall trend would be consistent with fewer extreme resource shortfalls over time, though the slightly negative estimate for the shorter six-month rainfall window is harder to interpret and could reflect a local negative relationship between recent rainfall and detection at some sites, or simply sampling noise.
+These effects warrant revisiting with a larger or more systematically designed survey dataset before strong conclusions can be drawn about their individual contributions.
 
-*Aphelocephala pectoralis* is a habitat specialist of stony, low shrublands — a structurally distinctive vegetation type associated with gibber plains and rocky stony ground — whose fine-scale distribution is constrained by the patchiness of this habitat within its broader range. The climatic and productivity covariates used in the occupancy model operate at broad landscape scales, and the resulting predicted ψ surfaces reflect regional climatic and productivity suitability rather than actual habitat availability. Because stony shrubland habitat is patchy and not yet accurately mapped at the spatial resolution of available remote sensing products, the predicted surfaces almost certainly overestimate the amount of terrain within which the species could realistically occur. Predicted occupancy probability in any given area should therefore be interpreted as indicating whether broad environmental conditions are consistent with the species' requirements, not as a literal estimate of occupied area. This is a well-recognised limitation of species distribution models applied to habitat specialists with patchy microhabitat requirements, and resolving it would require the development of fine-scale habitat maps that capture the structural characteristics of *A. pectoralis* habitat, such as stony substrate, low open chenopod shrubland, and sparse tree cover. Such mapping would substantially sharpen both range extent estimates and the interpretation of spatial predictions.
+*Aphelocephala pectoralis* is a habitat specialist of stony, low shrublands — a structurally distinctive vegetation type associated with gibber plains and rocky stony ground — whose fine-scale distribution is constrained by the patchiness of this habitat within its broader range.
+The climatic and productivity covariates used in the occupancy model operate at broad landscape scales, and the resulting predicted ψ surfaces reflect regional climatic and productivity suitability rather than actual habitat availability.
+Because stony shrubland habitat is patchy and not yet accurately mapped at the spatial resolution of available remote sensing products, the predicted surfaces almost certainly overestimate the amount of terrain within which the species could realistically occur.
+Predicted occupancy probability in any given area should therefore be interpreted as indicating whether broad environmental conditions are consistent with the species' requirements, not as a literal estimate of occupied area.
+This is a well-recognised limitation of species distribution models applied to habitat specialists with patchy microhabitat requirements, and resolving it would require the development of fine-scale habitat maps that capture the structural characteristics of *A. pectoralis* habitat, such as stony substrate, low open chenopod shrubland, and sparse tree cover.
+Such mapping would substantially sharpen both range extent estimates and the interpretation of spatial predictions.
 
-Taken together, the survey results, occupancy model, and BRT projections are consistent with an ongoing range contraction, with the population now apparently concentrated in the south-western core around Glendambo, Bon Bon and Coober Pedy, while formerly occupied areas in the north and east appear to have declined substantially. The evidence presented here suggests that this contraction is at least partly driven by increasing extreme heat, a trend that is projected to continue under all plausible emissions scenarios. These findings support considering an uplift in the conservation status of *A. pectoralis*, which is currently listed nationally as Near Threatened, a listing that may have historically reflected data deficiency [@garnett2021].
+Taken together, the survey results, occupancy model, and BRT projections are consistent with an ongoing range contraction, with the population now apparently concentrated in the south-western core around Glendambo, Bon Bon and Coober Pedy, while formerly occupied areas in the north and east appear to have declined substantially.
+The evidence presented here suggests that this contraction is at least partly driven by increasing extreme heat, a trend that is projected to continue under all plausible emissions scenarios.
+These findings support considering an uplift in the conservation status of *A. pectoralis*, which is currently listed nationally as Near Threatened, a listing that may have historically reflected data deficiency [@garnett2021].
 
-Several areas warrant priority follow-up attention. First, the Indulkana and broader APY lands area in the north, which carries a moderately high estimated occupancy probability from the model and where casual observer records suggest the species may persist, was not surveyed in 2024. Second, the south-western core around Glendambo and Bon Bon should be prioritised for repeat surveys to estimate population size and trend in what appears to be the current stronghold. Under low emissions scenarios (SSP1-2.6), this area retains some projected climatic suitability through to late century; under higher emissions, even this core becomes increasingly marginal. Establishing a baseline monitoring program there is therefore a reasonably urgent priority. Finally, the survey protocol developed here, standardised 5-ha area searches with consistent playback, replicated across ten cells per site, is suitable for direct re-use in future monitoring and provides a repeatable baseline against which future changes in detection rate and apparent occupancy can be compared.
+Several areas warrant priority follow-up attention.
+First, the Indulkana and broader APY lands area in the north, which carries a moderately high estimated occupancy probability from the model and where casual observer records suggest the species may persist, was not surveyed in 2024.
+Second, the south-western core around Glendambo and Bon Bon should be prioritised for repeat surveys to estimate population size and trend in what appears to be the current stronghold.
+Under low emissions scenarios (SSP1-2.6), this area retains some projected climatic suitability through to late century; under higher emissions, even this core becomes increasingly marginal.
+Establishing a baseline monitoring program there is therefore a reasonably urgent priority.
+Finally, the survey protocol developed here, standardised 5-ha area searches with consistent playback, replicated across ten cells per site, is suitable for direct re-use in future monitoring and provides a repeatable baseline against which future changes in detection rate and apparent occupancy can be compared.
 
 - could also mention somewhere about records of CBWF from witchelina, and Mt Ive, although we didn't detect any birds at these sites there are recent records. might be indicative of dispersing subadults, that are in too low density for us to detect them using our standardised survey method? Future questions about the mobility of said birds, given that in areas that were occupied we detected them at pretty much the same site. Aphelocephala sp. are known to be quite territorial, and could be highly residential rather than nomadic?
 
