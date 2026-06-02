@@ -309,8 +309,8 @@ knitr::include_graphics(
 
 ### Distribution modelling
 
-Boosted regression tree models predicted a progressive contraction of climatically suitable habitat for chestnut-breasted whiteface over the past six decades (@fig-brt-hist). 
-In 1960, moderate-to-high predicted occurrence probability extended across a broad swathe of the species' range. 
+Boosted regression tree models predicted a progressive contraction of climatically suitable habitat for chestnut-breasted whiteface over the past six decades (@fig-brt-hist).
+In 1960, moderate-to-high predicted occurrence probability extended across a broad swathe of the species' range.
 By 1990, and more markedly by 2024, the area of high predicted occurence probability had contracted, with much of the northern and eastern range becoming less climatically suitable, driven predominantly by increasing extreme heat.
 
 ```{r}
@@ -331,64 +331,88 @@ Under SSP1-2.6, a modest area of suitable climate persists in the south-west thr
 ```{r}
 #| label: fig-brt-fut
 #| echo: false
-#| fig-cap: "BRT-projected occurrence probability of *A. pectoralis* under NARCliM2.0 regional climate model ensemble scenarios for mid-century (2040–2059) and late-century (2080–2099), across three emissions pathways (SSP1-2.6, SSP2-4.5, SSP3-7.0). Warmer colours indicate higher predicted occurrence probability. Red dots denote sites where CBWF were recorded in 2024, black dots denote all historical records/survey sites. Climatically suitable habitat is projected to contract progressively relative to 2024 across all scenarios, with the most severe reductions under SSP3-7.0 by late century."
+#| fig-cap: "Boosted regression tree projected occurrence probability of Chestnut-breasted Whiteface under NARCliM2.0 regional climate model ensemble scenarios for mid-century (2040–2059) and late-century (2080–2099), across three emissions pathways (SSP1-2.6, SSP2-4.5, SSP3-7.0). Warmer colours indicate higher predicted occurrence probability. Red dots denote sites where CBWF were recorded in 2024, black dots denote all historical records/survey sites. Climatically suitable habitat is projected to contract progressively relative to 2024 across all scenarios, with the most severe reductions under SSP3-7.0 by late century."
 
 knitr::include_graphics(
   file.path(proj.path, "figures", "updated_figs", "brt_narclim_occupancy_sat.png")
 )
 ```
+
 <!-- # PT: I think this figure would be clearer if you had 'NARCliM2.0 emissions scenarios' written at the very top and then had the relevant scenario listed above the relevant column, and then similar on the left hand side of the figure, i.e. you had 'Future time period' written on the far left (going vertically) and then had 2040-2059 next to the top row and 2080-2099 next to the bottom row. This is as opposed to labelling each individual figure with the relevant combination of emissions scenario and time period. -->
 
 ## Discussion
 
-This study provides the first systematic reassessment of the distribution and status of the Chestnut-breasted Whiteface across much of its known range since the surveys of Lyn Pedler and colleagues in the 1990's and 2000's [@pedler1992; @pedler2000; @pedler2007].
-By revisiting historical localities, surveying more recent observation sites, and applying a repeatable site-based survey protocol, we provide an updated baseline for a species that has long been considered rare, poorly known and potentially declining.
-Overall, our results indicate that *A. pectoralis* persists in the South-West of its range around Glendambo and Coober Pedy, but was not detected from historical strongholds in the East around Mt Lyndhurst, nor from any sites along the Oodnadatta track where it has previously been recorded.
-Much of these areas were predicted to have low likelihood of occupancy, under current and future climate envelopes.
-Of note, parts of the predicted range to the north around (Indulkana in the APY lands) which were not surveyed in 2024 have a relatively high estimated occupancy probability.
+Our study serves as a prime example of the critical importance of timely, systematic and scientifically robust ecological monitoring to inform species conservation.
+The Chestnut-breasted Whiteface was considered an endemic, range-restricted, rare, small passerine of arid, stony, low shrublands.
+It had received limited research or conservation attention in recent decades and was at high risk of declining unnoticed and undocumented.
+Here, we show it's current and future projected decline to be concerning and worthy of conservation status reassessment before it's too late.
+
+We provide the first systematic reassessment of the distribution and status of the Chestnut-breasted Whiteface across much of its known range since the surveys of Lyn Pedler and colleagues in the 1990's and 2000's [@pedler1992; @pedler2000; @pedler2007].
+By revisiting historical localities, surveying more recent observation sites, and applying a repeatable site-based survey protocol, we provide an updated baseline for this species.
+Our results indicate that chestnut-breasted whiteface persists in the South-West of its range around Glendambo and Coober Pedy, but was not detected from historical strongholds in the East around Mt Lyndhurst, nor from any sites along the Oodnadatta track where it has previously been recorded.
+Much of these areas were predicted to have low likelihood of occupancy, under both current and future climate envelopes.
+However, parts of its predicted range to the north around Indulkana in the Anangu Pitjantjatjara Yankunytjatjara lands which were not surveyed in 2024 still have a relatively high estimated occupancy probability.
 Birds are regularly reported from this area by observers travelling the Stuart Highway, which is supported by our model output despite the closest survey sites recorded as unoccupied in 2024.
+
+### Distribution has contracted and is estimated to contract further under future emissions scenarios
 
 Of the five covariates examined, the absolute increase in days per year exceeding 40°C was the only predictor whose 95% credible interval clearly excluded zero, with a consistently negative effect on occupancy probability.
 The direction and magnitude of this effect is ecologically plausible.
 Small passerines in arid environments are vulnerable to extreme heat through acute lethal risks from dehydration and hyperthermia during high-temperature events [@conradie2020][@mckechnie2009].
-Metabolic water requirements increase sharply above thermoneutral zone temperatures, and for species without access to free water, as is typical across much of the stony shrubland habitat used by *A. pectoralis*, heat waves can impose lethal physiological stress even when brief [@conradie2020].
+Metabolic water requirements increase sharply above thermoneutral zone temperatures, and for species without access to free water, as is typical across much of the stony shrubland habitat used by Chestnut-breasted Whiteface, heat waves can impose lethal physiological stress even when brief [@conradie2020].
 Prolonged heat can also cause chronic sublethal effects, such as progressive body mass loss, reduced nestling growth rates, and increased breeding failure in other arid zone species [@conradie2019].
-The projected more-than-threefold increase in lethal dehydration risk days for Zebra Finches (*Taeniopygia castanotis*) in some regions by the end of the 21st century [@conradie2020] demonstrates the magnitude of the threat to small arid-zone passerines under continued warming, and there is no strong reason to expect *A. pectoralis* to be substantially more resilient.
+The projected more-than-threefold increase in lethal dehydration risk days for Zebra Finch in some regions by the end of the 21st century [@conradie2020] demonstrates the magnitude of this threat to small arid-zone passerines under continued warming, and there is no strong reason to expect Chestnut-breasted Whiteface to be substantially more resilient.
 
-This interpretation is reinforced by the BRT analysis, which used an expanded dataset and alternate modelling framework.
-Across both historical reconstructions and future projections, change in extreme heat days was the primary axis along which climatically suitable habitat contracts.
-The convergence of the two modelling approaches on the same predictor provides reasonable grounds for treating extreme heat as a genuine driver of the species' current distribution.
-The historical pattern in the BRT projections is consistent with this: the contraction of high-probability habitat between 1960 and 2024 aligns geographically with areas that have experienced the greatest increases in extreme heat days, particularly the northern and eastern parts of the range around Oodnadatta and Mt Lyndhurst.
-Future projections amplify this pattern, with a suitable climate envelope largely confined to the south-western core by mid-century under all emissions pathways, and dissappearing under higher emissions scenarios by late century.
-
+This interpretation is reinforced by our distribution modelling, which used an expanded dataset and alternate modelling framework.
+Across both historical reconstructions and future projections, change in extreme heat days was the primary axis along which climatically suitable habitat contracted.
+The convergence of the two modelling approaches on the same predictor provides robust grounds for treating extreme heat as a plausible driver of the species' current distribution.
+The historical pattern in the BRT projections is consistent with this: the contraction of high-probability habitat between 1960 and 2024 aligns geographically with areas that have experienced the greatest increases in extreme heat days, particularly the northern and eastern parts of the range from Oodnadatta to Mt Lyndhurst.
+Future projections amplify this pattern, with a suitable climate envelope largely confined to the south-western margin of the species current distribution by mid-century under all emissions pathways, and essentially completely disappearing under higher emissions scenarios by late century.
 The remaining four covariates all had credible intervals broadly spanning zero.
-This reflects genuine uncertainty in the data rather than implying these variables are unimportant ecologically.
-The occupancy modelling was necessarily based on a sample of sites chosen to cover historical localities rather than to span the full range of environmental conditions, which reduces statistical power to isolate individual covariate effects, particularly where predictors are correlated with one another.
+We expect this reflects uncertainty in the underlying data rather than these variables being ecologically unimportant.
+
+### Occupancy is sensitive to extreme heat and concentrates in the SW of their historic distribution
+
+Our occupancy modelling was based on a sample of sites chosen to cover historical localities.
+Sites were not chosen to span the full range of environmental conditions experienced by Chestnut-breasted Whiteface.
+Although this reduced our statistical power to isolate individual covariate effects, particularly where covariates were correlated, it was necessary for practical and logistical reasons and provided the greatest power to demonstrate range contraction and species decline <!-- # PT: Do you agree with this? -->.
 The positive point estimates for NPV, annual rainfall and PV are nonetheless in ecologically plausible directions.
 In boom-bust arid systems, rainfall pulses drive the production of standing dry biomass, which in turn supports the invertebrate food web underpinning the diet of many insectivorous passerines [@wijas2026; @wijas2023; @letnic2006].
-A positive association between both PV and NPV and occupancy would be consistent with *A. pectoralis* persisting at higher density in areas with greater food web support.
-Similarly, a general positive rainfall trend would be consistent with fewer extreme resource shortfalls over time, though the slightly negative estimate for the shorter six-month rainfall window is harder to interpret and could reflect a local negative relationship between recent rainfall and detection at some sites, or simply sampling noise.
-These effects warrant revisiting with a larger or more systematically designed survey dataset before strong conclusions can be drawn about their individual contributions.
+A positive association between both PV and NPV and occupancy would be consistent with *A. pectoralis* persisting at higher density in areas with greater resources to support food webs.
+Similarly, a general positive rainfall trend would be consistent with fewer extreme resource shortfalls over time.
+We cannot easily explain the small negative estimate for the effect of six-month rainfall total, which may reflect a local negative relationship between recent rainfall and detection at some sites, or sampling noise.
+These covariates warrant revisiting with a larger or more systematically sampled dataset to more robustly infer their individual contributions to chestnut-breasted whiteface occupancy.
 
-*Aphelocephala pectoralis* is a habitat specialist of stony, low shrublands — a structurally distinctive vegetation type associated with gibber plains and rocky stony ground — whose fine-scale distribution is constrained by the patchiness of this habitat within its broader range.
-The climatic and productivity covariates used in the occupancy model operate at broad landscape scales, and the resulting predicted ψ surfaces reflect regional climatic and productivity suitability rather than actual habitat availability.
-Because stony shrubland habitat is patchy and not yet accurately mapped at the spatial resolution of available remote sensing products, the predicted surfaces almost certainly overestimate the amount of terrain within which the species could realistically occur.
-Predicted occupancy probability in any given area should therefore be interpreted as indicating whether broad environmental conditions are consistent with the species' requirements, not as a literal estimate of occupied area.
-This is a well-recognised limitation of species distribution models applied to habitat specialists with patchy microhabitat requirements, and resolving it would require the development of fine-scale habitat maps that capture the structural characteristics of *A. pectoralis* habitat, such as stony substrate, low open chenopod shrubland, and sparse tree cover.
+*Aphelocephala pectoralis* is a habitat specialist of stony, low shrublands - a structurally distinctive vegetation type associated with gibber plains and rocky stony ground.
+The fine-scale distribution of chestnut-breasted whiteface is constrained by the patchiness of this habitat within its broader range.
+The climatic and productivity covariates used in the occupancy model operate at broad landscape scales, and the resulting predicted site-level occupancy surfaces reflect regional climatic and productivity suitability rather than actual habitat availability.
+Because stony shrubland habitat is patchy and not yet accurately mapped at the spatial resolution of available remote sensing products, the predicted surfaces will certainly overestimate the amount of terrain within which the species could realistically occur.
+Predicted occupancy probability in any given area should therefore be interpreted as indicating whether broad environmental conditions are consistent with the species' requirements, not as an estimate of occupied area.
+This is a well-recognised limitation of species distribution models applied to habitat specialists with patchy microhabitat requirements <!-- # PT: do you have ref for this if you say its well-recognised limitation? -->, and resolving it would require the development of fine-scale habitat maps that capture the structural characteristics of *A. pectoralis* habitat, such as stony substrate, low open chenopod shrubland, and sparse tree cover.
 Such mapping would substantially sharpen both range extent estimates and the interpretation of spatial predictions.
+
+<!-- # PT: I ahve now included a paragraph somewhat similar to this at the start of the discussion, so I think this paragraph can potentially be deleted? -->
 
 Taken together, the survey results, occupancy model, and BRT projections are consistent with an ongoing range contraction, with the population now apparently concentrated in the south-western core around Glendambo, Bon Bon and Coober Pedy, while formerly occupied areas in the north and east appear to have declined substantially.
 The evidence presented here suggests that this contraction is at least partly driven by increasing extreme heat, a trend that is projected to continue under all plausible emissions scenarios.
 These findings support considering an uplift in the conservation status of *A. pectoralis*, which is currently listed nationally as Near Threatened, a listing that may have historically reflected data deficiency [@garnett2021].
 
-Several areas warrant priority follow-up attention.
-First, the Indulkana and broader APY lands area in the north, which carries a moderately high estimated occupancy probability from the model and where casual observer records suggest the species may persist, was not surveyed in 2024.
-Second, the south-western core around Glendambo and Bon Bon should be prioritised for repeat surveys to estimate population size and trend in what appears to be the current stronghold.
-Under low emissions scenarios (SSP1-2.6), this area retains some projected climatic suitability through to late century; under higher emissions, even this core becomes increasingly marginal.
-Establishing a baseline monitoring program there is therefore a reasonably urgent priority.
-Finally, the survey protocol developed here, standardised 5-ha area searches with consistent playback, replicated across ten cells per site, is suitable for direct re-use in future monitoring and provides a repeatable baseline against which future changes in detection rate and apparent occupancy can be compared.
+### Future directions to guide species recovery
 
-- could also mention somewhere about records of CBWF from witchelina, and Mt Ive, although we didn't detect any birds at these sites there are recent records. might be indicative of dispersing subadults, that are in too low density for us to detect them using our standardised survey method? Future questions about the mobility of said birds, given that in areas that were occupied we detected them at pretty much the same site. Aphelocephala sp. are known to be quite territorial, and could be highly residential rather than nomadic?
+Our study highlights several areas requiring concerted future attention: 1) The Indulkana and broader Anangu Pitjantjatjara Yankunytjatjara lands area in the north of South Australia was estimated to have a moderately high occupancy probability, and recent records from amateur ornithologists suggest the species still persists here.
+However, this area was not covered in our 2024 surveys, but should be a strong focus in the near future.
+2) The south-western margin of the species distribution around Glendambo and Bon Bon, which now appears to be its core range, should be urgently prioritised for ongoing ecological monitoring to estimate and track population size.
+Under low emissions scenarios (SSP1-2.6), this area retains some projected climatic suitability through to the end of the century; under higher emissions, even this core area of their distribution becomes increasingly marginal.
+3) The survey protocol developed here, standardised 5-ha area searches with consistent playback, replicated across ten cells per site, is suitable for direct re-use in future monitoring and provides a repeatable baseline against which future changes in detection rate and apparent occupancy can be compared.
+4) Anecdotal reports have previously suggested Chestnut-breasted whiteface may be nomadic.
+However, our 2024 surveys recorded the species at the exact same location as numerous historic surveys, suggesting they may in fact be highly residential.
+Understanding the movement ecology of this species will be critical to informing range dynamics, population estimates, and guiding appropriate conservation actions.
+
+### Conclusion
+
+Ecological monitoring is frequently undervalued.
+Here, we provide an example where robust, systematic ecological monitoring has identified the decline of a rare and range-restricted arid passerine, the Chestnut-breasted Whiteface.
+Our work highlights the critical importance of such ecological monitoring in species conservation, and serves as a warning of what may be to come for many other arid passerines in a changing climate.
 
 ## References
 
