@@ -148,6 +148,10 @@ st <- d |>
   group_by(site) |>
   summarise(st = min(time_num))
 
+#playback
+rec <- read.csv((file = paste0(proj.path, "data/table/CBWF_records_03062026.csv")))
+nbirds <- sum(rec$Number.of.Individuals)
+nbirds_pb <- rec |> filter(Found.using.Call.Playback == "Yes") |> pull(Number.of.Individuals) |> sum()
 ```
 
 We conducted surveys across the known range of the Chestnut-breasted Whiteface in arid northern South Australia between June and September 2024.
@@ -251,10 +255,10 @@ knitr::include_graphics(
 ```
 
 A total of `r sum(tot_cbwf$tot)` Chestnut-breasted Whiteface were detected from `r sites_w_cbwf` of `r n_sites` sites (mean = `r mean(tot_cbwf$tot)`, sd = `r sd(tot_cbwf$tot)`).
-Birds were only detected at sites in the Coober Pedy-Glendambo region @fig-cbwf-map
+Birds were only detected at sites in the Coober Pedy-Glendambo region @fig-cbwf-map.
 
-Chestnut-breasted whiteface appeared to be highly responsive to call playback.
-In X% (AA of BB) of detections birds were observed coming in towards the observer to investigate call playback.
+The species also appeared to be highly responsive to call playback.
+In `r round((nbirds_pb/nbirds)*100)`% (`r nbirds_pb` of BB `r nbirds`) of detections birds were observed coming in towards the observer to investigate call playback.
 Despite this, we observed limited evidence of birds moving between cells or across transects in pursuit of call playback occurring in adjacent cells or transects, suggesting survey cell size and transect spacing was adequate to minimise double counting across surveys <!-- # PT: Maybe double check this with Darcy, but I think this was right. I certaintly didn't see much evidence that the birds followed me from one cell to the next in association with call playback. I think useful to make a commnet like this in the results as it backs up the robustness of the study design and the claims we have made about separating transects by 200 m to avoid double counting, etc. -->.
 
 <!-- NRS: this map needs improving but will do for draft -->
