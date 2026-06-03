@@ -124,7 +124,8 @@ We aimed to re-assess the distribution of the Chestnut-breasted Whiteface.
 We re-surveyed as many of the original 1990 surveys sites as possible, along with a selection of sites where the species had since been detected.
 Through this process, we developed a standardised, repeatable survey protocol, and using this contemporary survey information we project the species future distribution under a range of emissions scenarios.
 Our objective in this work was to inform the species conservation and future status assessments.
-## Methods {#sec-data-methods}
+
+## Methods
 
 ### Survey Region and Site Selection
 
@@ -166,7 +167,7 @@ Most sites occurred within arid stony plains, chenopod shrublands and associated
 We positioned surveys to cover the original historical survey locality as closely as possible, where accurate location information was available.
 For some historical records, however, location information was imprecise or unavailable at the scale required to relocate the original survey point.
 In these cases, we placed surveys within the approximate locality described by the historical record and in habitat judged to be broadly comparable to that originally surveyed.
-A map of surveyed sites and their broad regional grouping is provided in @fig-cbwf-map, and exact coordinates of surveys sites provided i n supplementary material XXX.
+A map of surveyed sites and their broad regional grouping is provided in @fig-cbwf-map, and exact coordinates of surveys sites provided in supplementary material XXX.
 <!-- add supplementary material -->
 
 ### Survey Methods
@@ -175,7 +176,7 @@ At each site, we conducted a set of repeated area searches designed to provide s
 The standard survey unit was a 20-minute, 5-ha area search (\~224 x 224 m).
 Each site comprised ten such survey cells, giving a total surveyed area of 50 ha per site.
 Cells were arranged in two parallel, but spatially separated transects (\~224 x 1118 m), with five 5-ha cells in each transect (See example supplementary Fig. XX).
-<!-- add supplementary material --> Transects were separated by 200m to reduce the probability of double-counting individualsindividuals.
+<!-- add supplementary material --> Transects were separated by 200m to reduce the probability of double-counting individuals.
 This transect spacing additionally minimised interference between observers and playback when transects were surveyed simultaneously by different observers.
 Each of the ten cells was surveyed once during a site visit.
 
@@ -259,11 +260,7 @@ Birds were only detected at sites in the Coober Pedy-Glendambo region @fig-cbwf-
 
 The species also appeared to be highly responsive to call playback.
 In `r round((nbirds_pb/nbirds)*100)`% (`r nbirds_pb` of BB `r nbirds`) of detections birds were observed coming in towards the observer to investigate call playback.
-Despite this, we observed limited evidence of birds moving between cells or across transects in pursuit of call playback occurring in adjacent cells or transects, suggesting survey cell size and transect spacing was adequate to minimise double counting across surveys <!-- # PT: Maybe double check this with Darcy, but I think this was right. I certaintly didn't see much evidence that the birds followed me from one cell to the next in association with call playback. I think useful to make a commnet like this in the results as it backs up the robustness of the study design and the claims we have made about separating transects by 200 m to avoid double counting, etc. -->.
-
-<!-- NRS: this map needs improving but will do for draft -->
-
-<!-- PT: Agree. In particular it does not show the surveys regions, or even the Coober Pedy-Glendambo region which is suggested by the previous sentence -->
+Despite this, we observed limited evidence of birds moving between cells or across transects in pursuit of call playback occurring in adjacent cells or transects, suggesting survey cell size and transect spacing was adequate to minimise double counting across surveys.
 
 ### Occupancy
 
