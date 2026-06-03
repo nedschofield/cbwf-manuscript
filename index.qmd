@@ -348,11 +348,11 @@ knitr::include_graphics(
 
 Our study serves as a prime example of the critical importance of timely, systematic and scientifically robust ecological monitoring to inform species conservation.
 The Chestnut-breasted Whiteface was considered an endemic, range-restricted, rare, small passerine of arid, stony, low shrublands.
-It had received limited research or conservation attention in since the surveys of Lyn Pedler and colleagues in the 1990's and 2000's \[\@pedler1992; \@pedler2000; \@pedler2007\], and was at high risk of declining unnoticed and undocumented.
+It had received limited research or conservation attention in since the surveys of Lyn Pedler and colleagues in the 1990's and 2000's [@pedler2000; @pedler1992; @pedler2007], and was at high risk of declining unnoticed and undocumented.
 Here, we show the species has experienced a significant range contraction as a result of climate change, and present evidence for likely further declines under future climate scenarios.
 This evidence is concerning and should prompt conservation status reassessment before it's too late.
 
-### Distribution has contracted and is estimated to contract further under future emissions scenarios
+### Increasing extreme heat is the primary driver of contraction
 
 Of the five covariates examined, the absolute increase in days per year exceeding 40°C was the only predictor whose 95% credible interval clearly excluded zero, with a consistently negative effect on occupancy probability.
 The direction and magnitude of this effect is ecologically plausible.
@@ -367,7 +367,7 @@ The convergence of the two modelling approaches on the same predictor provides r
 The historical pattern in the BRT projections is consistent with this: the contraction of high-probability habitat between 1960 and 2024 aligns geographically with areas that have experienced the greatest increases in extreme heat days, particularly the northern and eastern parts of the range from Oodnadatta to Mt Lyndhurst.
 Future projections amplify this pattern, with a suitable climate envelope largely confined to the south-western margin of the species current distribution by mid-century under all emissions pathways, and essentially completely disappearing under higher emissions scenarios by late century.
 
-### Occupancy is sensitive to extreme heat and concentrates in the SW of their historic distribution
+### Model limitations and the role of habitat specialisation
 
 Our occupancy modelling was based on a sample of sites chosen to cover historical localities, and therefore were not chosen to span the full range of environmental conditions experienced by Chestnut-breasted Whiteface.
 Although this reduced our statistical power to isolate individual covariate effects, particularly where covariates were correlated, it was necessary for practical and logistical reasons and provided the greatest power to demonstrate range contraction and species decline.
@@ -388,7 +388,7 @@ Predicted occupancy probability in any given area should therefore be interprete
 This is a limitation of species distribution models applied to habitat specialists with patchy microhabitat requirements, and resolving it would require the development of fine-scale habitat maps that capture the structural characteristics of Chestnut-breasted Whiteface habitat, such as stony substrate, low open chenopod shrubland, and sparse tree cover.
 Such mapping would substantially sharpen both range extent estimates and the interpretation of spatial predictions.
 
-### Future directions to guide species recovery
+### Future research and monitoring priorities
 
 Our study highlights several areas requiring concerted future attention: 1) The Indulkana and broader Anangu Pitjantjatjara Yankunytjatjara lands area in the north of South Australia was estimated to have a moderately high occupancy probability, and recent records from amateur ornithologists suggest the species still persists here.
 However, this area was not covered in our 2024 surveys, but should be a strong focus in the near future.
